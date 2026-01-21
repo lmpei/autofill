@@ -448,40 +448,113 @@ export class GreenhouseAutoFill {
             
             if (searchInput) {
               // 输入学校名称
-              searchInput.value = item.school
+              searchInput.value = ""
               searchInput.focus()
               
               // 触发各种事件以触发远程搜索
               searchInput.dispatchEvent(new Event("input", { bubbles: true }))
-              searchInput.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", bubbles: true }))
-              searchInput.dispatchEvent(new KeyboardEvent("keyup", { key: "Enter", bubbles: true }))
-              
+              await new Promise((resolve) => setTimeout(resolve, 50))
+              searchInput.value = item.school
+              searchInput.dispatchEvent(new Event("input", { bubbles: true }))
+              const lastChar = item.school.trim().slice(-1)
+              const keyCode = lastChar ? lastChar.toUpperCase().charCodeAt(0) : 0
+              searchInput.dispatchEvent(
+                new KeyboardEvent("keyup", {
+                  bubbles: true,
+                  key: lastChar,
+                  keyCode,
+                  which: keyCode,
+                })
+              )
               // 等待搜索结果出现
               await new Promise((resolve) => setTimeout(resolve, 1500))
-              
+
+              const findResults = () =>
+                document.querySelectorAll<HTMLElement>(
+                  `.select2-drop:not(.select2-display-none) .select2-results li:not(.select2-no-results):not(.select2-searching)`
+                )
+
               // 查找匹配的结果
-              const results = document.querySelectorAll<HTMLElement>(
-                `.select2-drop:not(.select2-display-none) .select2-results li:not(.select2-no-results):not(.select2-searching)`
-              )
-              
-              let matchedResult: HTMLElement | null = null
-              const normalizedSchool = this.normalizeLabel(item.school)
-              
-              for (const result of Array.from(results)) {
-                const text = result.textContent?.trim() || ""
-                if (
-                  this.normalizeLabel(text) === normalizedSchool ||
-                  this.normalizeLabel(text).includes(normalizedSchool) ||
-                  normalizedSchool.includes(this.normalizeLabel(text))
-                ) {
-                  matchedResult = result
-                  break
-                }
+              let results = findResults()
+              if (results.length === 0) {
+                await new Promise((resolve) => setTimeout(resolve, 800))
+                results = findResults()
               }
               
+              const normalizedSchool = this.normalizeLabel(item.school)
+              const scoredResults = Array.from(results)
+                .map((result) => {
+                  const text = result.textContent?.trim() || ""
+                  const normalizedText = this.normalizeLabel(text)
+                  let score = 0
+
+                  if (normalizedText === normalizedSchool) {
+                    score = 3
+                  } else if (normalizedText.startsWith(normalizedSchool)) {
+                    score = 2
+                  } else if (
+                    normalizedSchool.length >= 3 &&
+                    normalizedText.includes(normalizedSchool)
+                  ) {
+                    score = 1
+                  }
+
+                  return {
+                    result,
+                    score,
+                    lengthDelta: Math.abs(normalizedText.length - normalizedSchool.length),
+                  }
+                })
+                .filter((entry) => entry.score > 0)
+                .sort((a, b) => {
+                  if (b.score !== a.score) return b.score - a.score
+                  return a.lengthDelta - b.lengthDelta
+                })
+
+              const matchedResult = scoredResults[0]?.result ?? null
+              
+              
               if (matchedResult) {
-                matchedResult.click()
+                const label = matchedResult.querySelector<HTMLElement>(".select2-result-label")
+                if (label) {
+                  label.click()
+                } else {
+                  matchedResult.click()
+                }
                 await new Promise((resolve) => setTimeout(resolve, 300))
+
+                const ensureValueFromResult = () => {
+                  const resultValue =
+                    matchedResult.getAttribute("data-value") ||
+                    matchedResult.getAttribute("data-id") ||
+                    matchedResult.dataset?.value ||
+                    matchedResult.dataset?.id ||
+                    ""
+                  const resultText = matchedResult.textContent?.trim() || item.school
+
+                  if (schoolInput.value) return
+
+                  if ((window as any).jQuery) {
+                    try {
+                      (window as any).jQuery(schoolInput).select2("data", {
+                        id: resultValue || resultText,
+                        text: resultText,
+                      })
+                      ;(window as any).jQuery(schoolInput).trigger("change")
+                      return
+                    } catch (e) {
+                      // 忽略 Select2 设值错误
+                    }
+                  }
+
+                  if (resultValue) {
+                    schoolInput.value = resultValue
+                    schoolInput.dispatchEvent(new Event("input", { bubbles: true }))
+                    schoolInput.dispatchEvent(new Event("change", { bubbles: true }))
+                  }
+                }
+
+                ensureValueFromResult()              
               } else {
                 console.warn(`School search result not found for: ${item.school}`)
               }
