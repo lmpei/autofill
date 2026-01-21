@@ -155,7 +155,6 @@ const MOCK_DATA: Record<string, MockItem[]> = {
 }
 
 export class GreenhouseAutoFill {
-  formRules: TRule[]
   formRules: TRule[] = []
   filledFields = new Set<string>()
   missingFields = new Set<string>()
@@ -165,14 +164,26 @@ export class GreenhouseAutoFill {
   extractFields(): TRule[] {
     // TODO: 1. 实现提取字段的包含要求1里面的信息
     const result: TRule[] = []
-    this.formRules = []
-    return []
     const form = document.querySelector<HTMLFormElement>("#application_form")
     if (!form) {
       console.warn("Greenhouse form not found.")
       this.formRules = []
       return []
     }
+
+    // 提取基础字段（First Name, Last Name, Email, Phone）
+    const baseFields = [
+      { id: "first_name", label: "First Name" },
+      { id: "last_name", label: "Last Name" },
+      { id: "email", label: "Email" },
+      { id: "phone", label: "Phone" }
+    ]
+    baseFields.forEach(({ id, label }) => {
+      const element = form.querySelector<HTMLInputElement>(`#${id}`)
+      if (element) {
+        result.push({ label, type: "text" })
+      }
+    })
 
     const fields = Array.from(form.querySelectorAll<HTMLElement>(".field"))
     fields.forEach((field) => {
@@ -193,6 +204,12 @@ export class GreenhouseAutoFill {
       const labelText = getLabelText(labelElement)
       if (!labelText) return
 
+      // 跳过基础字段（已单独处理）
+      if (["First Name", "Last Name", "Email", "Phone"].includes(labelText)) {
+        return
+      }
+
+      // 优先查找 select 元素（包括隐藏的 Select2）
       const selectElement = field.querySelector("select")
       const textareaElement = field.querySelector("textarea")
       const inputElement = field.querySelector<HTMLInputElement>(
@@ -224,7 +241,6 @@ export class GreenhouseAutoFill {
   async fillForm() {
     // TODO: 2. 结合extractFields 将 mock 数据填入到页面中
     // 实现 getFormElementExecutor 方法 生成每条执行的action
-    const sequenceFuncCollector = []
     this.extractFields()
     this.loadMockData()
     const sequenceFuncCollector: ExecutableFunction[] = []
@@ -232,7 +248,6 @@ export class GreenhouseAutoFill {
       const action = this.getFormElementExecutor(rule)
       const actions = Array.isArray(action) ? action : [action]
       sequenceFuncCollector.push(...actions)
-      actions.filter(Boolean).forEach((item) => sequenceFuncCollector.push(item))
     }
 
     await executeSequentially(...sequenceFuncCollector)
@@ -240,7 +255,6 @@ export class GreenhouseAutoFill {
   }
 
   getFormElementExecutor(rule: TRule): ExecutableFunction[] {
-    return []
     if (rule.type === "education") {
       if (this.educationData.length > 0) {
         this.filledFields.add(rule.label)
@@ -257,6 +271,28 @@ export class GreenhouseAutoFill {
     }
 
     this.filledFields.add(rule.label)
+    
+    // 处理基础字段（直接通过 ID 查找）
+    const baseFieldMap: Record<string, string> = {
+      "First Name": "first_name",
+      "Last Name": "last_name",
+      "Email": "email",
+      "Phone": "phone"
+    }
+    
+    if (baseFieldMap[rule.label]) {
+      return [
+        {
+          func: () => {
+            const element = document.querySelector<HTMLInputElement>(`#${baseFieldMap[rule.label]}`)
+            if (element) {
+              this.fillInputTextField(element, value)
+            }
+          }
+        }
+      ]
+    }
+    
     if (rule.type === "select") {
       return [
         {
@@ -296,7 +332,6 @@ export class GreenhouseAutoFill {
 
   // 填充时需要的一些基础方法
   fillInputTextField = async (
-    element: HTMLInputElement | HTMLTextAreaElement
     element: HTMLInputElement | HTMLTextAreaElement,
     value: string | string[]
   ) => {
@@ -307,26 +342,65 @@ export class GreenhouseAutoFill {
     element.value = resolvedValue
     element.dispatchEvent(new Event("input", { bubbles: true }))
     element.dispatchEvent(new Event("change", { bubbles: true }))
+    element.dispatchEvent(new Event("blur", { bubbles: true }))
   }
 
-  fillSelectField = async (element: HTMLSelectElement) => {
   fillSelectField = async (element: HTMLSelectElement, value: string | string[]) => {
-    // TODO: 实现填充输入文本字段的函数
     const resolvedValue = Array.isArray(value) ? value[0] : value
     if (!resolvedValue) return
+
     const normalizedValue = this.normalizeLabel(resolvedValue)
     const options = Array.from(element.options)
-    const matchedOption =
-      options.find((option) => this.normalizeLabel(option.textContent || "") === normalizedValue) ||
-      options.find((option) =>
+    
+    // 多种匹配策略
+    let matchedOption = options.find(
+      (option) => this.normalizeLabel(option.textContent || "") === normalizedValue
+    )
+    
+    if (!matchedOption) {
+      matchedOption = options.find((option) =>
         this.normalizeLabel(option.textContent || "").includes(normalizedValue)
-      ) ||
-      options.find((option) =>
+      )
+    }
+    
+    if (!matchedOption) {
+      matchedOption = options.find((option) =>
         normalizedValue.includes(this.normalizeLabel(option.textContent || ""))
       )
-    if (matchedOption) {
-      element.value = matchedOption.value
-      element.dispatchEvent(new Event("change", { bubbles: true }))
+    }
+    
+    // 处理 Yes/No 到 1/0 的转换
+    if (!matchedOption && (normalizedValue === "yes" || normalizedValue === "no")) {
+      const boolValue = normalizedValue === "yes" ? "1" : "0"
+      matchedOption = options.find((option) => option.value === boolValue)
+    }
+    
+    // 处理 Acknowledge/Confirm
+    if (!matchedOption && (normalizedValue.includes("acknowledge") || normalizedValue.includes("confirm"))) {
+      matchedOption = options.find((option) =>
+        this.normalizeLabel(option.textContent || "").includes("acknowledge") ||
+        this.normalizeLabel(option.textContent || "").includes("confirm")
+      )
+    }
+
+    if (!matchedOption) {
+      console.warn(`No match found for select field with value: ${resolvedValue}`)
+      return
+    }
+
+    element.value = matchedOption.value
+    element.dispatchEvent(new Event("input", { bubbles: true }))
+    element.dispatchEvent(new Event("change", { bubbles: true }))
+    element.dispatchEvent(new Event("blur", { bubbles: true }))
+    
+    // 如果存在 Select2 容器，触发 Select2 更新
+    const select2Container = element.closest(".field")?.querySelector(".select2-container")
+    if (select2Container && (window as any).jQuery) {
+      try {
+        (window as any).jQuery(element).trigger("change")
+      } catch (e) {
+        // 忽略 jQuery 错误
+      }
     }
   }
 
@@ -350,30 +424,109 @@ export class GreenhouseAutoFill {
       document.querySelectorAll<HTMLElement>("#education_section .education:not(.education-template)")
     )
 
-    this.educationData.forEach((item, index) => {
+    for (let index = 0; index < this.educationData.length; index++) {
+      const item = this.educationData[index]
       const block = educationBlocks[index]
-      if (!block) return
+      if (!block) continue
 
-      const schoolInput = block.querySelector<HTMLInputElement>("input.school-name")
-      if (schoolInput && item.school) {
-        schoolInput.value = item.school
-        schoolInput.dispatchEvent(new Event("change", { bubbles: true }))
-        const chosen = block.querySelector<HTMLElement>(".select2-chosen")
-        if (chosen) {
-          chosen.textContent = item.school
+      // 处理 School 字段（Select2 远程搜索）
+      if (item.school) {
+        const schoolInput = block.querySelector<HTMLInputElement>("input.school-name")
+        const select2Container = block.querySelector<HTMLElement>(".select2-container.school-name")
+        
+        if (select2Container && schoolInput) {
+          // 点击 Select2 容器打开下拉框
+          const anchor = select2Container.querySelector<HTMLElement>("a.select2-choice")
+          if (anchor) {
+            anchor.click()
+            await new Promise((resolve) => setTimeout(resolve, 500))
+            
+            // 查找搜索输入框
+            const searchInput = document.querySelector<HTMLInputElement>(
+              `.select2-drop:not(.select2-display-none) .select2-input`
+            )
+            
+            if (searchInput) {
+              // 输入学校名称
+              searchInput.value = item.school
+              searchInput.focus()
+              
+              // 触发各种事件以触发远程搜索
+              searchInput.dispatchEvent(new Event("input", { bubbles: true }))
+              searchInput.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", bubbles: true }))
+              searchInput.dispatchEvent(new KeyboardEvent("keyup", { key: "Enter", bubbles: true }))
+              
+              // 等待搜索结果出现
+              await new Promise((resolve) => setTimeout(resolve, 1500))
+              
+              // 查找匹配的结果
+              const results = document.querySelectorAll<HTMLElement>(
+                `.select2-drop:not(.select2-display-none) .select2-results li:not(.select2-no-results):not(.select2-searching)`
+              )
+              
+              let matchedResult: HTMLElement | null = null
+              const normalizedSchool = this.normalizeLabel(item.school)
+              
+              for (const result of Array.from(results)) {
+                const text = result.textContent?.trim() || ""
+                if (
+                  this.normalizeLabel(text) === normalizedSchool ||
+                  this.normalizeLabel(text).includes(normalizedSchool) ||
+                  normalizedSchool.includes(this.normalizeLabel(text))
+                ) {
+                  matchedResult = result
+                  break
+                }
+              }
+              
+              if (matchedResult) {
+                matchedResult.click()
+                await new Promise((resolve) => setTimeout(resolve, 300))
+              } else {
+                console.warn(`School search result not found for: ${item.school}`)
+              }
+            }
+          }
+        } else if (schoolInput) {
+          // 回退方案：直接设置值
+          schoolInput.value = item.school
+          schoolInput.dispatchEvent(new Event("input", { bubbles: true }))
+          schoolInput.dispatchEvent(new Event("change", { bubbles: true }))
         }
       }
 
+      // 处理 Degree
       const degreeSelect = block.querySelector<HTMLSelectElement>("select.degree")
       if (degreeSelect && item.degree) {
-        this.fillSelectField(degreeSelect, item.degree)
+        await this.fillSelectField(degreeSelect, item.degree)
+        await new Promise((resolve) => setTimeout(resolve, 200))
       }
 
+      // 处理 Discipline
       const disciplineSelect = block.querySelector<HTMLSelectElement>("select.discipline")
       if (disciplineSelect && item.discipline) {
-        this.fillSelectField(disciplineSelect, item.discipline)
+        await this.fillSelectField(disciplineSelect, item.discipline)
+        await new Promise((resolve) => setTimeout(resolve, 200))
       }
 
+      // 处理 Start Date
+      if (item.start) {
+        const startDate = dayjs(item.start)
+        const startMonth = block.querySelector<HTMLInputElement>("input.start-date-month")
+        const startYear = block.querySelector<HTMLInputElement>("input.start-date-year")
+        if (startMonth) {
+          startMonth.value = startDate.format("MM")
+          startMonth.dispatchEvent(new Event("input", { bubbles: true }))
+          startMonth.dispatchEvent(new Event("change", { bubbles: true }))
+        }
+        if (startYear) {
+          startYear.value = startDate.format("YYYY")
+          startYear.dispatchEvent(new Event("input", { bubbles: true }))
+          startYear.dispatchEvent(new Event("change", { bubbles: true }))
+        }
+      }
+
+      // 处理 End Date
       if (item.end) {
         const endDate = dayjs(item.end)
         const endMonth = block.querySelector<HTMLInputElement>("input.end-date-month")
@@ -389,7 +542,10 @@ export class GreenhouseAutoFill {
           endYear.dispatchEvent(new Event("change", { bubbles: true }))
         }
       }
-    })
+      
+      // 每个教育项之间添加延迟
+      await new Promise((resolve) => setTimeout(resolve, 500))
+    }
   }
 
   private loadMockData() {
