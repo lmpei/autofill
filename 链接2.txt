@@ -1,0 +1,1276 @@
+<html lang="en"><plasmo-csui></plasmo-csui><head prefix="og: http://ogp.me/ns#"><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><style data-rc-order="prependQueue" data-rc-priority="-999" data-css-hash="1ppr2fz" data-token-hash="ceha6z" data-cache-path="ceha6z|Shared|ant">:where(.css-dev-only-do-not-override-qnu6hi) a{color:#1677ff;text-decoration:none;background-color:transparent;outline:none;cursor:pointer;transition:color 0.3s;-webkit-text-decoration-skip:objects;}:where(.css-dev-only-do-not-override-qnu6hi) a:hover{color:#69b1ff;}:where(.css-dev-only-do-not-override-qnu6hi) a:active{color:#0958d9;}:where(.css-dev-only-do-not-override-qnu6hi) a:active,:where(.css-dev-only-do-not-override-qnu6hi) a:hover{text-decoration:none;outline:0;}:where(.css-dev-only-do-not-override-qnu6hi) a:focus{text-decoration:none;outline:0;}:where(.css-dev-only-do-not-override-qnu6hi) a[disabled]{color:rgba(0, 0, 0, 0.25);cursor:not-allowed;}</style><style data-rc-order="prependQueue" data-rc-priority="-999" data-css-hash="ae2979" data-token-hash="ceha6z" data-cache-path="ceha6z|Wave-Wave|ant-wave|anticon">:where(.css-dev-only-do-not-override-qnu6hi).ant-wave{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:14px;box-sizing:border-box;}:where(.css-dev-only-do-not-override-qnu6hi).ant-wave::before,:where(.css-dev-only-do-not-override-qnu6hi).ant-wave::after{box-sizing:border-box;}:where(.css-dev-only-do-not-override-qnu6hi).ant-wave [class^="ant-wave"],:where(.css-dev-only-do-not-override-qnu6hi).ant-wave [class*=" ant-wave"]{box-sizing:border-box;}:where(.css-dev-only-do-not-override-qnu6hi).ant-wave [class^="ant-wave"]::before,:where(.css-dev-only-do-not-override-qnu6hi).ant-wave [class*=" ant-wave"]::before,:where(.css-dev-only-do-not-override-qnu6hi).ant-wave [class^="ant-wave"]::after,:where(.css-dev-only-do-not-override-qnu6hi).ant-wave [class*=" ant-wave"]::after{box-sizing:border-box;}:where(.css-dev-only-do-not-override-qnu6hi).ant-wave{position:absolute;background:transparent;pointer-events:none;box-sizing:border-box;color:var(--wave-color, #1677ff);box-shadow:0 0 0 0 currentcolor;opacity:0.2;}:where(.css-dev-only-do-not-override-qnu6hi).ant-wave.wave-motion-appear{transition:box-shadow 0.4s cubic-bezier(0.08, 0.82, 0.17, 1),opacity 2s cubic-bezier(0.08, 0.82, 0.17, 1);}:where(.css-dev-only-do-not-override-qnu6hi).ant-wave.wave-motion-appear-active{box-shadow:0 0 0 6px currentcolor;opacity:0;}:where(.css-dev-only-do-not-override-qnu6hi).ant-wave.wave-motion-appear.wave-quick{transition:box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);}</style><style data-rc-order="prependQueue" data-rc-priority="-999" data-css-hash="1onpmkg" data-token-hash="ceha6z" data-cache-path="ceha6z|Button-Button|ant-btn|anticon">:where(.css-dev-only-do-not-override-qnu6hi).ant-btn{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:14px;box-sizing:border-box;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn::before,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn::after{box-sizing:border-box;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn [class^="ant-btn"],:where(.css-dev-only-do-not-override-qnu6hi).ant-btn [class*=" ant-btn"]{box-sizing:border-box;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn [class^="ant-btn"]::before,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn [class*=" ant-btn"]::before,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn [class^="ant-btn"]::after,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn [class*=" ant-btn"]::after{box-sizing:border-box;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn{outline:none;position:relative;display:inline-flex;gap:8px;align-items:center;justify-content:center;font-weight:400;white-space:nowrap;text-align:center;background-image:none;background:transparent;border:1px solid transparent;cursor:pointer;transition:all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);user-select:none;touch-action:manipulation;color:rgba(0, 0, 0, 0.88);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn:disabled>*{pointer-events:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn >span{display:inline-block;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn .ant-btn-icon{line-height:1;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn >a{color:currentColor;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn:not(:disabled):focus-visible{outline:4px solid #91caff;outline-offset:1px;transition:outline-offset 0s,outline 0s;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-two-chinese-chars::first-letter{letter-spacing:0.34em;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-two-chinese-chars>*:not(.anticon){margin-inline-end:-0.34em;letter-spacing:0.34em;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-icon-end{flex-direction:row-reverse;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn{font-size:14px;line-height:1.5714285714285714;height:32px;padding:4px 15px;border-radius:6px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-icon-only{width:32px;padding-inline:0;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-icon-only.ant-btn-compact-item{flex:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-icon-only.ant-btn-round{width:auto;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-icon-only .anticon{font-size:16px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-loading{opacity:0.65;cursor:default;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn .ant-btn-loading-icon{transition:width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-circle.ant-btn{min-width:32px;padding-inline-start:0;padding-inline-end:0;border-radius:50%;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-round.ant-btn{border-radius:32px;padding-inline-start:16px;padding-inline-end:16px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-sm{font-size:14px;line-height:1.5714285714285714;height:24px;padding:0px 7px;border-radius:4px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-sm.ant-btn-icon-only{width:24px;padding-inline:0;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-sm.ant-btn-icon-only.ant-btn-compact-item{flex:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-sm.ant-btn-icon-only.ant-btn-round{width:auto;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-sm.ant-btn-icon-only .anticon{font-size:14px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-sm.ant-btn-loading{opacity:0.65;cursor:default;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-sm .ant-btn-loading-icon{transition:width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-circle.ant-btn-sm{min-width:24px;padding-inline-start:0;padding-inline-end:0;border-radius:50%;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-round.ant-btn-sm{border-radius:24px;padding-inline-start:12px;padding-inline-end:12px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-lg{font-size:16px;line-height:1.5;height:40px;padding:7px 15px;border-radius:8px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-lg.ant-btn-icon-only{width:40px;padding-inline:0;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-lg.ant-btn-icon-only.ant-btn-compact-item{flex:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-lg.ant-btn-icon-only.ant-btn-round{width:auto;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-lg.ant-btn-icon-only .anticon{font-size:18px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-lg.ant-btn-loading{opacity:0.65;cursor:default;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-lg .ant-btn-loading-icon{transition:width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-circle.ant-btn-lg{min-width:40px;padding-inline-start:0;padding-inline-end:0;border-radius:50%;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-round.ant-btn-lg{border-radius:40px;padding-inline-start:20px;padding-inline-end:20px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn.ant-btn-block{width:100%;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default{background:#ffffff;border-color:#d9d9d9;color:rgba(0, 0, 0, 0.88);box-shadow:0 2px 0 rgba(0, 0, 0, 0.02);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-disabled{cursor:not-allowed;border-color:#d9d9d9;color:rgba(0, 0, 0, 0.25);background:rgba(0, 0, 0, 0.04);box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover{color:#4096ff;border-color:#4096ff;background:#ffffff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default:not(:disabled):not(.ant-btn-disabled):active{color:#0958d9;border-color:#0958d9;background:#ffffff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-background-ghost{color:#ffffff;background:transparent;border-color:#ffffff;box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-background-ghost:disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);border-color:#d9d9d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous{color:#ff4d4f;border-color:#ff4d4f;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):hover{color:#ff7875;border-color:#ffa39e;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):active{color:#d9363e;border-color:#d9363e;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous.ant-btn-background-ghost{color:#ff4d4f;background:transparent;border-color:#ff4d4f;box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous.ant-btn-background-ghost:disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);border-color:#d9d9d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default.ant-btn-dangerous.ant-btn-disabled{cursor:not-allowed;border-color:#d9d9d9;color:rgba(0, 0, 0, 0.25);background:rgba(0, 0, 0, 0.04);box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary{color:#fff;background:#1677ff;box-shadow:0 2px 0 rgba(5, 145, 255, 0.1);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-disabled{cursor:not-allowed;border-color:#d9d9d9;color:rgba(0, 0, 0, 0.25);background:rgba(0, 0, 0, 0.04);box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover{color:#fff;background:#4096ff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):active{color:#fff;background:#0958d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-background-ghost{color:#1677ff;background:transparent;border-color:#1677ff;box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover{background:transparent;color:#4096ff;border-color:#4096ff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active{background:transparent;color:#0958d9;border-color:#0958d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-background-ghost:disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);border-color:#d9d9d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous{background:#ff4d4f;box-shadow:0 2px 0 rgba(255, 38, 5, 0.06);color:#fff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):hover{background:#ff7875;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):active{background:#d9363e;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous.ant-btn-background-ghost{color:#ff4d4f;background:transparent;border-color:#ff4d4f;box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover{background:transparent;color:#ff7875;border-color:#ff7875;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active{background:transparent;color:#d9363e;border-color:#d9363e;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous.ant-btn-background-ghost:disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);border-color:#d9d9d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary.ant-btn-dangerous.ant-btn-disabled{cursor:not-allowed;border-color:#d9d9d9;color:rgba(0, 0, 0, 0.25);background:rgba(0, 0, 0, 0.04);box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed{background:#ffffff;border-color:#d9d9d9;color:rgba(0, 0, 0, 0.88);box-shadow:0 2px 0 rgba(0, 0, 0, 0.02);border-style:dashed;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-disabled{cursor:not-allowed;border-color:#d9d9d9;color:rgba(0, 0, 0, 0.25);background:rgba(0, 0, 0, 0.04);box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed:not(:disabled):not(.ant-btn-disabled):hover{color:#4096ff;border-color:#4096ff;background:#ffffff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed:not(:disabled):not(.ant-btn-disabled):active{color:#0958d9;border-color:#0958d9;background:#ffffff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-background-ghost{color:#ffffff;background:transparent;border-color:#ffffff;box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-background-ghost:disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);border-color:#d9d9d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous{color:#ff4d4f;border-color:#ff4d4f;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):hover{color:#ff7875;border-color:#ffa39e;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):active{color:#d9363e;border-color:#d9363e;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous.ant-btn-background-ghost{color:#ff4d4f;background:transparent;border-color:#ff4d4f;box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous.ant-btn-background-ghost:disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);border-color:#d9d9d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-dashed.ant-btn-dangerous.ant-btn-disabled{cursor:not-allowed;border-color:#d9d9d9;color:rgba(0, 0, 0, 0.25);background:rgba(0, 0, 0, 0.04);box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link{color:#1677ff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link:not(:disabled):not(.ant-btn-disabled):hover{color:#69b1ff;background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link:not(:disabled):not(.ant-btn-disabled):active{color:#0958d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link.ant-btn-disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link.ant-btn-dangerous{color:#ff4d4f;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):hover{color:#ff7875;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):active{color:#d9363e;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link.ant-btn-dangerous:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-link.ant-btn-dangerous.ant-btn-disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text:not(:disabled):not(.ant-btn-disabled):hover{color:rgba(0, 0, 0, 0.88);background:rgba(0, 0, 0, 0.06);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text:not(:disabled):not(.ant-btn-disabled):active{color:rgba(0, 0, 0, 0.88);background:rgba(0, 0, 0, 0.15);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text.ant-btn-disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text.ant-btn-dangerous{color:#ff4d4f;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text.ant-btn-dangerous:disabled,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text.ant-btn-dangerous.ant-btn-disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):hover{color:#ff7875;background:#fff2f0;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-text.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):active{color:#ff7875;background:#ffccc7;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-ghost.ant-btn-background-ghost{color:#ffffff;background:transparent;border-color:#ffffff;box-shadow:none;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-ghost.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-ghost.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active{background:transparent;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-ghost.ant-btn-background-ghost:disabled{cursor:not-allowed;color:rgba(0, 0, 0, 0.25);border-color:#d9d9d9;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group{position:relative;display:inline-flex;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:last-child),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn:not(:last-child),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:last-child)>.ant-btn,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn:not(:last-child)>.ant-btn{border-start-end-radius:0;border-end-end-radius:0;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:first-child),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn:not(:first-child){margin-inline-start:-1px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:first-child),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn:not(:first-child),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:first-child)>.ant-btn,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn:not(:first-child)>.ant-btn{border-start-start-radius:0;border-end-start-radius:0;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group .ant-btn{position:relative;z-index:1;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group .ant-btn:hover,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group .ant-btn:focus,:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group .ant-btn:active{z-index:2;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group .ant-btn[disabled]{z-index:0;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group .ant-btn-icon-only{font-size:14px;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:last-child):not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn-primary:not(:last-child):not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:last-child)>.ant-btn-primary:not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn-primary:not(:last-child)>.ant-btn-primary:not(:disabled){border-inline-end-color:#4096ff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:first-child):not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn-primary:not(:first-child):not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:first-child)>.ant-btn-primary:not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn-primary:not(:first-child)>.ant-btn-primary:not(:disabled){border-inline-start-color:#4096ff;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:last-child):not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn-danger:not(:last-child):not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:last-child)>.ant-btn-danger:not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn-danger:not(:last-child)>.ant-btn-danger:not(:disabled){border-inline-end-color:#ff7875;}:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:first-child):not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn-danger:not(:first-child):not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >span:not(:first-child)>.ant-btn-danger:not(:disabled),:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-group >.ant-btn-danger:not(:first-child)>.ant-btn-danger:not(:disabled){border-inline-start-color:#ff7875;}</style><style data-rc-order="prependQueue" data-css-hash="1gvl60q" data-token-hash="ceha6z" data-cache-path="ceha6z|ant-design-icons|anticon">.anticon{display:inline-flex;align-items:center;color:inherit;font-style:normal;line-height:0;text-align:center;text-transform:none;vertical-align:-0.125em;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.anticon >*{line-height:1;}.anticon svg{display:inline-block;}.anticon .anticon .anticon-icon{display:block;}</style>
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__zh_cn.js" crossorigin="anonymous" integrity="sha384-/kVPGkvbH0qY3tEggLdwZA4mnhiit6dDVsSTFwOhb0UhMM0R87j7+BRcaZtjhJsj"></script><script>var _rollbarConfig = {"accessToken":"a9e544e2eb674f56b12d47e1d2ed4cd1","captureUncaught":true,"payload":{"environment":"production"},"hostBlockList":["linkedin.com","recruitics.com"],"checkIgnore":function(isUncaught, args, payload) {
+  try {
+    var isPhantomJS = window.navigator.userAgent.match(/phantomjs/i);
+    var isSplash= window.navigator.userAgent.match(/splash version/i);
+    var firefox = window.navigator.userAgent.match(/(firefox)\/(\w+)/i); // JSON, must escape slash
+    var chrome = window.navigator.userAgent.match(/(chrome)\/(\w+)/i); // JSON, must escape slash
+
+    var browserExtensionOrAutomationFile = function(frame) {
+      var regExPatterns = [/^chrome-extension/, /^safari-extension/, /^moz-extension/, /^pptr/];
+      return regExPatterns.some(function(regEx) {
+        return regEx.test(frame.filename);
+      });
+    }
+
+    var isBrowserExtensionOrAutomation = payload.body.trace &&
+                                         payload.body.trace.frames &&
+                                         payload.body.trace.frames.some(browserExtensionOrAutomationFile);
+
+    var isFirefoxLessThan50;
+    if (firefox) {
+      var majorVersion = Number(firefox[2]);
+      isFirefoxLessThan50 = majorVersion < 50
+    }
+
+    var isChromeLessThan50;
+    if (chrome) {
+      var chromeVersion = Number(chrome[2]);
+      isChromeLessThan50 = chromeVersion < 50;
+    }
+
+    return Boolean(isPhantomJS) ||
+           Boolean(isSplash) ||
+           Boolean(isFirefoxLessThan50) ||
+           Boolean(isChromeLessThan50) ||
+           Boolean(isBrowserExtensionOrAutomation);
+  } catch (e) {
+    return true;
+  }
+}
+,"ignoredMessages":["BetterJsPop","vungle","Script error","awliwidget","ResizeObserver loop completed with undelivered notifications.","jQuery is missing","Attempting to configurable attribute of unconfigurable property.","WeakMap is not defined","Cannot change the configurable attribute of","Cannot call method \"get\" of undefined","\\$ is not defined","Can't find variable: \\$","uncaught exception: \\[object Object\\]","Unexpected token ';'","Failed S3 Direct Upload for field: resume","Failed to open/load the window. Dropbox.choose and Dropbox.save should only be called from within a user-triggered event handler such as a tap or click event.","googletag","solana|ethereum","originalPrompt"]};</script>
+<script>!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.26.1/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||function(r){return!("object"!=typeof r||void 0!==r.page&&!r.page)}(a))&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script>
+  <title>Job Application for Engineering Manager - Public Cloud, Python, Golang at Canonical - Jobs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1.0">
+  <meta id="rendered-by" content="jben">
+  <link rel="stylesheet" href="https://boards.cdn.greenhouse.io/assets/application-7df35e37aac52d59d92d32eebf84995ce5cd0091bf624bd0c23229c122ce382e.css" media="all">
+<link rel="stylesheet" href="https://boards.cdn.greenhouse.io/assets/responsive-95ad71d0f9cbcb13adb28ed74687b15c00a64bb1c4a6ab47ab9072493777804c.css" media="all">
+  <script class="js-metadata processed" data-key="Polyglot.translation" data-type="json" data-value="{&quot;date&quot;:{&quot;formats&quot;:{&quot;default&quot;:&quot;%Y-%m-%d&quot;,&quot;short&quot;:&quot;%b %d&quot;,&quot;long&quot;:&quot;%B %d, %Y&quot;},&quot;day_names&quot;:[&quot;Sunday&quot;,&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&quot;Thursday&quot;,&quot;Friday&quot;,&quot;Saturday&quot;],&quot;abbr_day_names&quot;:[&quot;Sun&quot;,&quot;Mon&quot;,&quot;Tue&quot;,&quot;Wed&quot;,&quot;Thu&quot;,&quot;Fri&quot;,&quot;Sat&quot;],&quot;month_names&quot;:[null,&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;],&quot;abbr_month_names&quot;:[null,&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;],&quot;order&quot;:[&quot;year&quot;,&quot;month&quot;,&quot;day&quot;]},&quot;time&quot;:{&quot;formats&quot;:{&quot;default&quot;:&quot;%a, %d %b %Y %H:%M:%S %z&quot;,&quot;short&quot;:&quot;%d %b %H:%M&quot;,&quot;long&quot;:&quot;%B %d, %Y %H:%M&quot;},&quot;am&quot;:&quot;am&quot;,&quot;pm&quot;:&quot;pm&quot;},&quot;support&quot;:{&quot;array&quot;:{&quot;words_connector&quot;:&quot;, &quot;,&quot;two_words_connector&quot;:&quot; and &quot;,&quot;last_word_connector&quot;:&quot;, and &quot;}},&quot;number&quot;:{&quot;format&quot;:{&quot;separator&quot;:&quot;.&quot;,&quot;delimiter&quot;:&quot;,&quot;,&quot;precision&quot;:3,&quot;round_mode&quot;:&quot;default&quot;,&quot;significant&quot;:false,&quot;strip_insignificant_zeros&quot;:false},&quot;currency&quot;:{&quot;format&quot;:{&quot;format&quot;:&quot;%u%n&quot;,&quot;negative_format&quot;:&quot;-%u%n&quot;,&quot;unit&quot;:&quot;$&quot;,&quot;separator&quot;:&quot;.&quot;,&quot;delimiter&quot;:&quot;,&quot;,&quot;precision&quot;:2,&quot;significant&quot;:false,&quot;strip_insignificant_zeros&quot;:false}},&quot;percentage&quot;:{&quot;format&quot;:{&quot;delimiter&quot;:&quot;&quot;,&quot;format&quot;:&quot;%n%&quot;}},&quot;precision&quot;:{&quot;format&quot;:{&quot;delimiter&quot;:&quot;&quot;}},&quot;human&quot;:{&quot;format&quot;:{&quot;delimiter&quot;:&quot;&quot;,&quot;precision&quot;:3,&quot;significant&quot;:true,&quot;strip_insignificant_zeros&quot;:true},&quot;storage_units&quot;:{&quot;format&quot;:&quot;%n %u&quot;,&quot;units&quot;:{&quot;byte&quot;:{&quot;one&quot;:&quot;Byte&quot;,&quot;other&quot;:&quot;Bytes&quot;},&quot;kb&quot;:&quot;KB&quot;,&quot;mb&quot;:&quot;MB&quot;,&quot;gb&quot;:&quot;GB&quot;,&quot;tb&quot;:&quot;TB&quot;,&quot;pb&quot;:&quot;PB&quot;,&quot;eb&quot;:&quot;EB&quot;,&quot;zb&quot;:&quot;ZB&quot;}},&quot;decimal_units&quot;:{&quot;format&quot;:&quot;%n %u&quot;,&quot;units&quot;:{&quot;unit&quot;:&quot;&quot;,&quot;thousand&quot;:&quot;Thousand&quot;,&quot;million&quot;:&quot;Million&quot;,&quot;billion&quot;:&quot;Billion&quot;,&quot;trillion&quot;:&quot;Trillion&quot;,&quot;quadrillion&quot;:&quot;Quadrillion&quot;}}},&quot;nth&quot;:{&quot;ordinals&quot;:{},&quot;ordinalized&quot;:{}}},&quot;errors&quot;:{&quot;format&quot;:&quot;%{attribute} %{message}&quot;,&quot;messages&quot;:{&quot;model_invalid&quot;:&quot;Validation failed: %{errors}&quot;,&quot;inclusion&quot;:&quot;is not included in the list&quot;,&quot;exclusion&quot;:&quot;is reserved&quot;,&quot;invalid&quot;:&quot;is invalid&quot;,&quot;confirmation&quot;:&quot;doesn't match %{attribute}&quot;,&quot;accepted&quot;:&quot;must be accepted&quot;,&quot;empty&quot;:&quot;can't be empty&quot;,&quot;blank&quot;:&quot;can't be blank&quot;,&quot;present&quot;:&quot;must be blank&quot;,&quot;too_long&quot;:{&quot;one&quot;:&quot;is too long (maximum is 1 character)&quot;,&quot;other&quot;:&quot;is too long (maximum is %{count} characters)&quot;},&quot;password_too_long&quot;:&quot;is too long&quot;,&quot;too_short&quot;:{&quot;one&quot;:&quot;is too short (minimum is 1 character)&quot;,&quot;other&quot;:&quot;is too short (minimum is %{count} characters)&quot;},&quot;wrong_length&quot;:{&quot;one&quot;:&quot;is the wrong length (should be 1 character)&quot;,&quot;other&quot;:&quot;is the wrong length (should be %{count} characters)&quot;},&quot;not_a_number&quot;:&quot;is not a number&quot;,&quot;not_an_integer&quot;:&quot;must be an integer&quot;,&quot;greater_than&quot;:&quot;must be greater than %{count}&quot;,&quot;greater_than_or_equal_to&quot;:&quot;must be greater than or equal to %{count}&quot;,&quot;equal_to&quot;:&quot;must be equal to %{count}&quot;,&quot;less_than&quot;:&quot;must be less than %{count}&quot;,&quot;less_than_or_equal_to&quot;:&quot;must be less than or equal to %{count}&quot;,&quot;other_than&quot;:&quot;must be other than %{count}&quot;,&quot;in&quot;:&quot;must be in %{count}&quot;,&quot;odd&quot;:&quot;must be odd&quot;,&quot;even&quot;:&quot;must be even&quot;,&quot;required&quot;:&quot;must exist&quot;,&quot;taken&quot;:&quot;has already been taken&quot;},&quot;board_misconfigured&quot;:&quot;This job board is not yet configured. Please complete configuration in Greenhouse before embedding.&quot;,&quot;board_no_longer_available&quot;:&quot;The board you are looking for is no longer open.&quot;,&quot;job_not_live&quot;:{&quot;job_closed&quot;:&quot;The job you are looking for is no longer open.&quot;,&quot;board_closed&quot;:&quot;The board on which this job was on is no longer open.&quot;},&quot;job_not_found&quot;:&quot;The job you are looking for was not found.&quot;,&quot;job_processing_timed_out&quot;:&quot;Uh oh!  Your application took too long to process.  If you're attaching lots of files, try making them smaller.&quot;,&quot;job_stale&quot;:&quot;The company you are applying to has updated this job application. Please save your responses, reload the page, and try to submit again.&quot;,&quot;missing_application&quot;:&quot;Missing required field: job_application&quot;,&quot;max_file_size&quot;:&quot;%{file_size} MB maximum file size&quot;,&quot;security_code&quot;:{&quot;invalid&quot;:&quot;Incorrect security code&quot;,&quot;expired&quot;:&quot;Invalid security code&quot;}},&quot;activerecord&quot;:{&quot;errors&quot;:{&quot;messages&quot;:{&quot;record_invalid&quot;:&quot;Validation failed: %{errors}&quot;,&quot;restrict_dependent_destroy&quot;:{&quot;has_one&quot;:&quot;Cannot delete record because a dependent %{record} exists&quot;,&quot;has_many&quot;:&quot;Cannot delete record because dependent %{record} exist&quot;}}}},&quot;datetime&quot;:{&quot;distance_in_words&quot;:{&quot;half_a_minute&quot;:&quot;half a minute&quot;,&quot;less_than_x_seconds&quot;:{&quot;one&quot;:&quot;less than 1 second&quot;,&quot;other&quot;:&quot;less than %{count} seconds&quot;},&quot;x_seconds&quot;:{&quot;one&quot;:&quot;1 second&quot;,&quot;other&quot;:&quot;%{count} seconds&quot;},&quot;less_than_x_minutes&quot;:{&quot;one&quot;:&quot;less than a minute&quot;,&quot;other&quot;:&quot;less than %{count} minutes&quot;},&quot;x_minutes&quot;:{&quot;one&quot;:&quot;1 minute&quot;,&quot;other&quot;:&quot;%{count} minutes&quot;},&quot;about_x_hours&quot;:{&quot;one&quot;:&quot;about 1 hour&quot;,&quot;other&quot;:&quot;about %{count} hours&quot;},&quot;x_days&quot;:{&quot;one&quot;:&quot;1 day&quot;,&quot;other&quot;:&quot;%{count} days&quot;},&quot;about_x_months&quot;:{&quot;one&quot;:&quot;about 1 month&quot;,&quot;other&quot;:&quot;about %{count} months&quot;},&quot;x_months&quot;:{&quot;one&quot;:&quot;1 month&quot;,&quot;other&quot;:&quot;%{count} months&quot;},&quot;about_x_years&quot;:{&quot;one&quot;:&quot;about 1 year&quot;,&quot;other&quot;:&quot;about %{count} years&quot;},&quot;over_x_years&quot;:{&quot;one&quot;:&quot;over 1 year&quot;,&quot;other&quot;:&quot;over %{count} years&quot;},&quot;almost_x_years&quot;:{&quot;one&quot;:&quot;almost 1 year&quot;,&quot;other&quot;:&quot;almost %{count} years&quot;}},&quot;prompts&quot;:{&quot;year&quot;:&quot;Year&quot;,&quot;month&quot;:&quot;Month&quot;,&quot;day&quot;:&quot;Day&quot;,&quot;hour&quot;:&quot;Hour&quot;,&quot;minute&quot;:&quot;Minute&quot;,&quot;second&quot;:&quot;Seconds&quot;}},&quot;helpers&quot;:{&quot;select&quot;:{&quot;prompt&quot;:&quot;Please select&quot;},&quot;submit&quot;:{&quot;create&quot;:&quot;Create %{model}&quot;,&quot;update&quot;:&quot;Update %{model}&quot;,&quot;submit&quot;:&quot;Save %{model}&quot;},&quot;page_entries_info&quot;:{&quot;entry&quot;:{&quot;zero&quot;:&quot;entries&quot;,&quot;one&quot;:&quot;entry&quot;,&quot;other&quot;:&quot;entries&quot;},&quot;one_page&quot;:{&quot;display_entries&quot;:{&quot;zero&quot;:&quot;No %{entry_name} found&quot;,&quot;one&quot;:&quot;Displaying \u003cb\u003e1\u003c/b\u003e %{entry_name}&quot;,&quot;other&quot;:&quot;Displaying \u003cb\u003eall %{count}\u003c/b\u003e %{entry_name}&quot;}},&quot;more_pages&quot;:{&quot;display_entries&quot;:&quot;Displaying %{entry_name} \u003cb\u003e%{first}\u0026nbsp;-\u0026nbsp;%{last}\u003c/b\u003e of \u003cb\u003e%{total}\u003c/b\u003e in total&quot;}}},&quot;flash&quot;:{&quot;actions&quot;:{&quot;create&quot;:{&quot;notice&quot;:&quot;%{resource_name} was successfully created.&quot;},&quot;update&quot;:{&quot;notice&quot;:&quot;%{resource_name} was successfully updated.&quot;},&quot;destroy&quot;:{&quot;notice&quot;:&quot;%{resource_name} was successfully destroyed.&quot;,&quot;alert&quot;:&quot;%{resource_name} could not be destroyed.&quot;}}},&quot;views&quot;:{&quot;pagination&quot;:{&quot;first&quot;:&quot;\u0026laquo; First&quot;,&quot;last&quot;:&quot;Last \u0026raquo;&quot;,&quot;previous&quot;:&quot;\u0026lsaquo; Prev&quot;,&quot;next&quot;:&quot;Next \u0026rsaquo;&quot;,&quot;truncate&quot;:&quot;\u0026hellip;&quot;}},&quot;eeoc&quot;:{&quot;title&quot;:&quot;\u003ch3\u003e\u003cstrong\u003eVoluntary Self-Identification\u003c/strong\u003e\u003c/h3\u003e&quot;,&quot;intro&quot;:&quot;\u003cp\u003eFor government reporting purposes, we ask candidates to respond to the below self-identification survey.\nCompletion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring\nprocess or thereafter. Any information that you do provide will be recorded and maintained in a\nconfidential file.\u003c/p\u003e\n\n\u003cp\u003eAs set forth in %{organization_name}’s Equal Employment Opportunity policy,\nwe do not discriminate on the basis of any protected group status under any applicable law.\u003c/p\u003e\n&quot;,&quot;veteran&quot;:&quot;\u003cp\u003e\n  If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection.\n  As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure\n  the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories\n  is as follows:\n\u003c/p\u003e\n\u003cp\u003eA \&quot;disabled veteran\&quot; is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability.\u003c/p\u003e\n\u003cp\u003eA \&quot;recently separated veteran\&quot; means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.\u003c/p\u003e\n\u003cp\u003eAn \&quot;active duty wartime or campaign badge veteran\&quot; means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.\u003c/p\u003e\n\u003cp\u003eAn \&quot;Armed forces service medal veteran\&quot; means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.\u003c/p\u003e\n&quot;,&quot;disability&quot;:&quot;\u003ch3\u003e\u003cstrong\u003eVoluntary Self-Identification of Disability\u003c/strong\u003e\u003c/h3\u003e\n\u003cdiv style=\&quot;display:flex; justify-content:space-between;\&quot;\u003e\n  \u003cdiv\u003e\n    \u003cdiv\u003eForm CC-305\u003c/div\u003e\n    \u003cdiv\u003ePage 1 of 1\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv\u003e\n    \u003cdiv\u003eOMB Control Number 1250-0005\u003c/div\u003e\n    \u003cdiv\u003eExpires 04/30/2026\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhy are you being asked to complete this form?\u003c/strong\u003e\n\u003cp\u003eWe are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.\u003c/p\u003e\n\u003cp\u003eCompleting this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at \u003ca href=\&quot;https://www.dol.gov/ofccp\&quot; target=\&quot;_blank\&quot;\u003ewww.dol.gov/ofccp\u003c/a\u003e.\u003c/p\u003e\n\u003cstrong\u003eHow do you know if you have a disability?\u003c/strong\u003e\n\u003cp\u003eA disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability. \u003cstrong\u003eDisabilities include, but are not limited to:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eAlcohol or other substance use disorder (not currently using drugs illegally)\u003c/li\u003e\n  \u003cli\u003eAutoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS\u003c/li\u003e\n  \u003cli\u003eBlind or low vision\u003c/li\u003e\n  \u003cli\u003eCancer (past or present)\u003c/li\u003e\n  \u003cli\u003eCardiovascular or heart disease\u003c/li\u003e\n  \u003cli\u003eCeliac disease\u003c/li\u003e\n  \u003cli\u003eCerebral palsy\u003c/li\u003e\n  \u003cli\u003eDeaf or serious difficulty hearing\u003c/li\u003e\n  \u003cli\u003eDiabetes\u003c/li\u003e\n  \u003cli\u003eDisfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders\u003c/li\u003e\n  \u003cli\u003eEpilepsy or other seizure disorder\u003c/li\u003e\n  \u003cli\u003eGastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome\u003c/li\u003e\n  \u003cli\u003eIntellectual or developmental disability\u003c/li\u003e\n  \u003cli\u003eMental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD\u003c/li\u003e\n  \u003cli\u003eMissing limbs or partially missing limbs\u003c/li\u003e\n  \u003cli\u003eMobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports\u003c/li\u003e\n  \u003cli\u003eNervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)\u003c/li\u003e\n  \u003cli\u003eNeurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities\u003c/li\u003e\n  \u003cli\u003ePartial or complete paralysis (any cause)\u003c/li\u003e\n  \u003cli\u003ePulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema\u003c/li\u003e\n  \u003cli\u003eShort stature (dwarfism)\u003c/li\u003e\n  \u003cli\u003eTraumatic brain injury\u003c/li\u003e\n\u003c/ul\u003e\n&quot;,&quot;reasonable_accommodation_notice&quot;:&quot;\u003cp\u003ePUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete.\u003c/p\u003e\n&quot;},&quot;eeoc_data&quot;:{&quot;links&quot;:{&quot;race_ethnicity_definitions&quot;:{&quot;href&quot;:&quot;/docs/RaceEthnicityDefinitions.pdf&quot;,&quot;text&quot;:&quot;Race \u0026amp; Ethnicity Definitions&quot;}},&quot;questions&quot;:{&quot;gender&quot;:&quot;Gender&quot;,&quot;hispanic_ethnicity&quot;:&quot;Are you Hispanic/Latino?&quot;,&quot;race&quot;:&quot;Please identify your race&quot;,&quot;veteran_status&quot;:&quot;Veteran Status&quot;,&quot;disability_status&quot;:&quot;Disability Status&quot;,&quot;api&quot;:{&quot;race&quot;:&quot;Race&quot;}},&quot;answers&quot;:{&quot;gender&quot;:[&quot;Male&quot;,&quot;Female&quot;,&quot;Decline To Self Identify&quot;],&quot;hispanic_ethnicity&quot;:[[&quot;Yes&quot;,&quot;Yes&quot;],[&quot;No&quot;,&quot;No&quot;],[&quot;Decline To Self Identify&quot;,&quot;Decline To Self Identify&quot;]],&quot;race&quot;:[&quot;American Indian or Alaskan Native&quot;,&quot;Asian&quot;,&quot;Black or African American&quot;,&quot;Hispanic or Latino&quot;,&quot;White&quot;,&quot;Native Hawaiian or Other Pacific Islander&quot;,&quot;Two or More Races&quot;,&quot;Decline To Self Identify&quot;],&quot;veteran_status&quot;:[&quot;I am not a protected veteran&quot;,&quot;I identify as one or more of the classifications of a protected veteran&quot;,&quot;I don't wish to answer&quot;],&quot;disability_status&quot;:[&quot;Yes, I have a disability, or have had one in the past&quot;,&quot;No, I do not have a disability and have not had one in the past&quot;,&quot;I do not want to answer&quot;]}},&quot;captcha&quot;:{&quot;suspected_bot&quot;:&quot;SUSPECTED BOT: Captcha failed with direct HTTP form post IP %{ip}\n&quot;,&quot;failed_to_load&quot;:&quot;Google Recaptcha service cannot be loaded.&quot;,&quot;failed&quot;:&quot;Oops! We were unable to verify your Captcha response.&quot;,&quot;retry&quot;:&quot;Oops! We were unable to verify your Captcha.  Please try again.&quot;,&quot;help_center&quot;:&quot;This application was flagged as potential bot traffic. To resubmit your application, turn off any VPNs, clear the browser's cache and cookies, or try another browser. If you still can't submit it, contact our support team through the \u003ca target=\&quot;_blank\&quot; href=\&quot;https://support.greenhouse.io/hc/en-us/sections/360011273391-Connecting-with-support\&quot;\u003ehelp center\u003c/a\u003e.&quot;,&quot;geetest_failed_to_load&quot;:&quot;Geetest Captcha service failed to load.&quot;,&quot;fallback&quot;:&quot;Please complete the reCAPTCHA above.&quot;},&quot;email_verification&quot;:{&quot;job_post_description&quot;:&quot;Enter the verification code sent to \u003cb id=\&quot;security_code_recipient\&quot;\u003e\u003c/b\u003e to confirm you are not a robot, then submit your application.&quot;,&quot;email&quot;:{&quot;subject&quot;:&quot;Security code for your application to %{company_name}&quot;,&quot;salutation&quot;:&quot;Hi %{first_name},&quot;,&quot;opening&quot;:&quot;Copy and paste this code into the security code field on your application:&quot;,&quot;closing&quot;:&quot;After you enter the code, resubmit your application.&quot;}},&quot;job_post&quot;:{&quot;add_education&quot;:&quot;+ Add another education&quot;,&quot;add_employment&quot;:&quot;+ Add another employment&quot;,&quot;almost_there&quot;:&quot;Almost there! Review your information then click 'Submit Application' to apply.&quot;,&quot;apply_for_this_job&quot;:&quot;Apply for this Job&quot;,&quot;apply_now&quot;:&quot;Apply Now&quot;,&quot;apply_with_linkedin&quot;:&quot;Apply With LinkedIn&quot;,&quot;attach&quot;:&quot;Attach&quot;,&quot;attachment&quot;:&quot;An attachment&quot;,&quot;at_org&quot;:&quot;at %{organization_name}&quot;,&quot;back_to_application&quot;:&quot;Back to application&quot;,&quot;cancel&quot;:&quot;Cancel&quot;,&quot;city&quot;:&quot;City&quot;,&quot;company_name&quot;:&quot;Company Name&quot;,&quot;cover_letter&quot;:&quot;Cover Letter&quot;,&quot;current&quot;:&quot;Current&quot;,&quot;degree&quot;:&quot;Degree&quot;,&quot;discipline&quot;:&quot;Discipline&quot;,&quot;drop_files_here&quot;:&quot;Drop files here&quot;,&quot;education&quot;:&quot;Education&quot;,&quot;education_end_date&quot;:&quot;End Date&quot;,&quot;education_start_date&quot;:&quot;Start Date&quot;,&quot;email&quot;:&quot;Email&quot;,&quot;employment&quot;:&quot;Employment&quot;,&quot;field_chosen&quot;:&quot;%{field} chosen&quot;,&quot;file_types&quot;:&quot;File types&quot;,&quot;first_name&quot;:&quot;First Name&quot;,&quot;loading_attachment&quot;:&quot;Loading attachment from %{uploader}...&quot;,&quot;locate_me&quot;:&quot;Locate me&quot;,&quot;location&quot;:&quot;Location&quot;,&quot;last_name&quot;:&quot;Last Name&quot;,&quot;name&quot;:&quot;Name&quot;,&quot;no&quot;:&quot;No&quot;,&quot;optional&quot;:&quot;Optional&quot;,&quot;or&quot;:&quot;or&quot;,&quot;paste&quot;:&quot;or enter manually&quot;,&quot;phone&quot;:&quot;Phone&quot;,&quot;please_select&quot;:&quot;Please select&quot;,&quot;preferred_name&quot;:&quot;Preferred First Name&quot;,&quot;question&quot;:&quot;Question&quot;,&quot;required&quot;:&quot;Required&quot;,&quot;remove_attachment&quot;:&quot;Remove attachment&quot;,&quot;resume&quot;:&quot;Resume/CV&quot;,&quot;school_name&quot;:&quot;School&quot;,&quot;share_this_job&quot;:&quot;Share this job: &quot;,&quot;select&quot;:&quot;Select&quot;,&quot;select_one&quot;:&quot;Select one&quot;,&quot;select_one_or_more&quot;:&quot;Select one or more&quot;,&quot;select_field&quot;:&quot;Select a %{field}&quot;,&quot;submit_application&quot;:&quot;Submit Application&quot;,&quot;file_uploader_timeout&quot;:&quot;Unable to load %{uploader}. It has either timed out or you can try again later.&quot;,&quot;textarea&quot;:&quot;Enter manually&quot;,&quot;title&quot;:&quot;Title&quot;,&quot;view_more_jobs&quot;:&quot;View more jobs at %{organization_name}&quot;,&quot;view_all_jobs&quot;:&quot;View all jobs&quot;,&quot;without_browser_support&quot;:&quot;The browser does not support %{uploader} upload.&quot;,&quot;year&quot;:&quot;Year&quot;,&quot;yes&quot;:&quot;Yes&quot;,&quot;security_code&quot;:&quot;Security Code&quot;},&quot;validation&quot;:{&quot;at_least_one_required&quot;:&quot;At least one option must be checked&quot;,&quot;consent_is_required&quot;:&quot;Please accept the terms to proceed&quot;,&quot;demographic_questions_answered&quot;:&quot;You answered some demographic questions. Please accept the terms to proceed, or clear your responses. \u003ca href='#demographic_questions'\u003eReturn to the demographic questions.\u003c/a\u003e&quot;,&quot;did_you_mean&quot;:&quot;Did you mean&quot;,&quot;empty_attachment&quot;:&quot;Attached files must be larger than 0 bytes&quot;,&quot;field_is_required&quot;:&quot;%{field} is required.&quot;,&quot;invalid_date&quot;:&quot;End Date cannot be before Start Date&quot;,&quot;invalid_email&quot;:&quot;Please use the format \&quot;text@example.com\&quot;&quot;,&quot;invalid_field&quot;:&quot;Invalid %{field}&quot;,&quot;invalid_location&quot;:&quot;Please enter your location and select it from the dropdown&quot;,&quot;month_format&quot;:&quot;Month must be a number between 1 and 12&quot;,&quot;this_field_is_required&quot;:&quot;This field is required.&quot;,&quot;year_format&quot;:&quot;Year must be a number between 1900 and 2100&quot;},&quot;api_errors&quot;:{&quot;empty_file&quot;:&quot;Attachment '%{field}' is empty. Please provide a non-empty file.&quot;,&quot;invalid_file&quot;:&quot;Attachment '%{field}' is invalid. Please provide a valid file attachment.&quot;,&quot;large_file&quot;:&quot;Attachment '%{field}' exceeds %{max_file_size} MB file size.&quot;},&quot;job_application_request&quot;:{&quot;request_received&quot;:&quot;Thanks for your submission.&quot;},&quot;data_compliance&quot;:{&quot;gdpr&quot;:{&quot;disclaimer&quot;:&quot;%{company_name} has my consent to collect, store, and process my data for the purpose of considering me for employment, and for up to %{retention_period} days thereafter.&quot;,&quot;processing_disclaimer&quot;:&quot;By checking this box, I agree to allow %{company_name} to store and process my data for the purpose of considering my eligibility regarding my current application for employment.&quot;,&quot;retention_disclaimer&quot;:&quot;By checking this box, I agree to allow %{company_name} to retain my data for future opportunities for employment for up to %{retention_period} days after the conclusion of consideration of my current application for employment.&quot;,&quot;demographic_data_disclaimer&quot;:&quot;By checking this box, I consent to %{company_name} collecting, storing, and processing my responses to the demographic data surveys above.&quot;,&quot;disabled_tooltip&quot;:&quot;You must consent to the processing of your data in order to activate this checkbox&quot;}}}" type="text/configuration"></script><script class="js-metadata processed" data-key="errorImageSource" data-type="string" data-value="https://boards.cdn.greenhouse.io/assets/svg/error-69893c3b3f8f27477ac24dbcb3d8e569fcc265882e77cd464d2bad69dd7d3918.svg" type="text/configuration"></script>
+    <meta property="og:title" content="Engineering Manager - Public Cloud, Python, Golang">
+    <meta property="og:description" content="Home based - Canada, Montreal">
+    <meta property="og:image" content="https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/012/263/original/_Canonical.png?1689184020">
+    <meta property="og:type" content="article">
+    <meta property="gh:type" content="embedded">
+
+  <script class="js-metadata processed" data-key="JBEN.linkedin_csrf" data-type="string" data-value="3e8db6cd68227c925c782737" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.host" data-type="string" data-value="https://boards.greenhouse.io" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.internalBoardsHost" data-type="string" data-value="https://app.greenhouse.io" type="text/configuration"></script>
+<style type="text/css">  @-webkit-keyframes rotate {
+    from  { -webkit-transform: rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes rotate {
+    from  { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+    .dropbox-dropin-btn, .dropbox-dropin-btn:link, .dropbox-dropin-btn:hover {
+      display: inline-block;
+      height: 14px;
+      font-family: "Lucida Grande", "Segoe UI", "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      color: #636363;
+      text-decoration: none;
+      padding: 1px 7px 5px 3px;
+      border: 1px solid #ebebeb;
+      border-radius: 2px;
+      border-bottom-color: #d4d4d4;
+        background: #fcfcfc;
+  background: -moz-linear-gradient(top, #fcfcfc 0%, #f5f5f5 100%);
+  background: -webkit-linear-gradient(top, #fcfcfc 0%, #f5f5f5 100%);
+  background: linear-gradient(to bottom, #fcfcfc 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f5f5f5',GradientType=0);  
+    }
+
+    .dropbox-dropin-default:hover, .dropbox-dropin-error:hover {
+      border-color: #dedede;
+      border-bottom-color: #cacaca;
+        background: #fdfdfd;
+  background: -moz-linear-gradient(top, #fdfdfd 0%, #f5f5f5 100%);
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #f5f5f5 100%);
+  background: linear-gradient(to bottom, #fdfdfd 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f5f5f5',GradientType=0);  
+    }
+
+    .dropbox-dropin-default:active, .dropbox-dropin-error:active {
+      border-color: #d1d1d1;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    }
+
+    .dropbox-dropin-btn .dropin-btn-status {
+      display: inline-block;
+      width: 15px;
+      height: 14px;
+      vertical-align: bottom;
+      margin: 0 5px 0 2px;
+      background: transparent url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-saver-status.png') no-repeat;
+      position: relative;
+      top: 2px;
+    }
+
+    .dropbox-dropin-default .dropin-btn-status {
+      background-position: 0px 0px;
+    }
+
+    .dropbox-dropin-progress .dropin-btn-status {
+      width: 18px;
+      margin: 0 4px 0 0;
+      background: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-progress.png') no-repeat center center;
+        -webkit-animation-name: rotate;
+        -webkit-animation-duration: 1.7s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+      animation-name: rotate;
+      animation-duration: 1.7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .dropbox-dropin-success .dropin-btn-status {
+      background-position: -15px 0px;
+    }
+
+    .dropbox-dropin-disabled {
+      background: #e0e0e0;
+      border: 1px #dadada solid;
+      border-bottom: 1px solid #ccc;
+      box-shadow: none;
+    }
+
+    .dropbox-dropin-disabled .dropin-btn-status {
+      background-position: -30px 0px;
+    }
+
+    .dropbox-dropin-error .dropin-btn-status {
+      background-position: -45px 0px;
+    }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.4) {
+      .dropbox-dropin-btn .dropin-btn-status {
+        background-image: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-saver-status-2x.png');
+        background-size: 60px 14px;
+          -webkit-background-size: 60px 14px;
+      }
+
+      .dropbox-dropin-progress .dropin-btn-status {
+        background: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-progress-2x.png') no-repeat center center;
+        background-size: 20px 20px;
+          -webkit-background-size: 20px 20px;
+      }
+  }
+
+    .dropbox-saver:hover, .dropbox-chooser:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .dropbox-chooser, .dropbox-dropin-btn {
+      line-height: 11px !important;
+      text-decoration: none !important;
+      box-sizing: content-box !important;
+        -webkit-box-sizing: content-box !important;
+        -moz-box-sizing: content-box !important;
+    }
+    </style><style type="text/css">.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q{display:block!important;border:1px solid #cdcfd2!important;background-color:#fff!important;color:#373a3d!important;width:100vw!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-24GeGuJgk9LrMLp7qVvlyz{background:#6a7e89!important;color:#fff!important;padding:10px!important;font-size:18px!important;font-family:sans-serif!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-KVjdulkCFfUZps29EbgAC{background:#f3f6f8!important;border-bottom:1px solid #cdcfd2!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-KVjdulkCFfUZps29EbgAC>*{margin-right:10px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-1OeZ2PQ98oAp6Vc5mMc6V5{list-style:none!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-vCwYmWF_l83ScZBrGnRoi,.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-1OeZ2PQ98oAp6Vc5mMc6V5{margin:0!important;padding:0!important;width:100%!important;display:block!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-vCwYmWF_l83ScZBrGnRoi:not(:last-child){border-bottom:1px solid #cdcfd2!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-1XQZkb-FlHWABUp4_uShaZ{color:inherit!important;cursor:pointer!important;width:100%!important;display:inline-block!important;margin:10px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-1XTzMvb2XKitWz0mFLlyyp{margin:5px!important;display:block!important;width:auto!important;white-space:pre!important;overflow-x:scroll!important;background:inherit!important;color:inherit!important;font-family:monospace}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-1XTzMvb2XKitWz0mFLlyyp:not(.IN-e146f606-483d-4824-a598-79a778fddfb4-39QUvFFn5B7GMcqMQkOXZ3){display:none!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-295DY3nO0DbJWMsOqmjCli{background:#f5f5f5!important;color:#5a5a5a!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q.IN-e146f606-483d-4824-a598-79a778fddfb4-1aQZwu6CUzAf2zUcI7tg0Q .IN-e146f606-483d-4824-a598-79a778fddfb4-295DY3nO0DbJWMsOqmjCli{display:none!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-38EPFyKXMtoP12rPlmrHxs{background:#e6f7ff!important;color:#006097!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q.IN-e146f606-483d-4824-a598-79a778fddfb4-3W4ZnQjhoGfT1gTNcqRXdi .IN-e146f606-483d-4824-a598-79a778fddfb4-38EPFyKXMtoP12rPlmrHxs{display:none!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-HGYnfzlmgOZ-l7eANhQe_{background:#fff3ea!important;color:#993a00!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q.IN-e146f606-483d-4824-a598-79a778fddfb4-24e52A11B1UIErbKHtBmqc .IN-e146f606-483d-4824-a598-79a778fddfb4-HGYnfzlmgOZ-l7eANhQe_{display:none!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q .IN-e146f606-483d-4824-a598-79a778fddfb4-jji74ZzulHScD0OAD_G7h{background:#fef2f1!important;color:#b10823!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-3npS60y-EvfF7G_lioSx2Q.IN-e146f606-483d-4824-a598-79a778fddfb4-28jAOA7cDee-95LvwGsOP- .IN-e146f606-483d-4824-a598-79a778fddfb4-jji74ZzulHScD0OAD_G7h{display:none!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu{background-color:#0073b1!important;border:0!important;border-radius:2px!important;box-sizing:border-box!important;color:#fff!important;cursor:pointer!important;display:inline-block!important;font-family:-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif!important;font-weight:600!important;overflow:hidden!important;outline-width:2px!important;position:relative!important;text-align:center!important;text-decoration:none!important;vertical-align:middle!important;white-space:nowrap!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu:disabled{cursor:not-allowed!important;opacity:.7!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu:not(:disabled):not(.IN-e146f606-483d-4824-a598-79a778fddfb4-1zhzkayakwEXovVYUbq5Gy):hover{background-color:#006097!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu:not(:disabled):not(.IN-e146f606-483d-4824-a598-79a778fddfb4-1zhzkayakwEXovVYUbq5Gy):active{background-color:#004b7c!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-1zhzkayakwEXovVYUbq5Gy{background-color:#fff!important;color:#0073b1!important;box-shadow:inset 0 0 0 1px rgba(0,0,0,.3)!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-1zhzkayakwEXovVYUbq5Gy:not(:disabled):hover{color:#006097!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-1zhzkayakwEXovVYUbq5Gy:not(:disabled):active{color:#004b7c!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon{display:inline-block!important;height:100%!important;vertical-align:top!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon>svg{pointer-events:none!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-7inSbaAsvG5bf7w6lJTEr{font-size:10px!important;height:16px!important;line-height:16px!important;padding:0 6px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-7inSbaAsvG5bf7w6lJTEr>xdoor-icon{margin-left:-6px!important;margin-right:3px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-7inSbaAsvG5bf7w6lJTEr>xdoor-icon>svg{height:16px!important;width:16px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-7inSbaAsvG5bf7w6lJTEr.IN-e146f606-483d-4824-a598-79a778fddfb4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-6px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu,.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-3uCBSbQNVNf2QjqHe1rfb6{font-size:11px!important;height:20px!important;line-height:20px!important;padding:0 7px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-3uCBSbQNVNf2QjqHe1rfb6>xdoor-icon,.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon{margin-left:-7px!important;margin-right:3.5px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-3uCBSbQNVNf2QjqHe1rfb6>xdoor-icon>svg,.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon>svg{height:20px!important;width:20px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-3uCBSbQNVNf2QjqHe1rfb6.IN-e146f606-483d-4824-a598-79a778fddfb4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon,.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-7px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-21Smv9YG-5V6M6KP-5v2WG{font-size:14px!important;height:24px!important;line-height:24px!important;padding:0 12px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-21Smv9YG-5V6M6KP-5v2WG>xdoor-icon{margin-left:-12px!important;margin-right:6px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-21Smv9YG-5V6M6KP-5v2WG>xdoor-icon>svg{height:24px!important;width:24px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-21Smv9YG-5V6M6KP-5v2WG.IN-e146f606-483d-4824-a598-79a778fddfb4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-12px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-1TGdQUTLZdNG4R87OfAB-q{font-size:16px!important;height:32px!important;line-height:32px!important;padding:0 16px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-1TGdQUTLZdNG4R87OfAB-q>xdoor-icon{margin-left:-16px!important;margin-right:8px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-1TGdQUTLZdNG4R87OfAB-q>xdoor-icon>svg{height:32px!important;width:32px!important}.IN-e146f606-483d-4824-a598-79a778fddfb4-1G9ISYhSF8XoOmdcl0yKDu.IN-e146f606-483d-4824-a598-79a778fddfb4-1TGdQUTLZdNG4R87OfAB-q.IN-e146f606-483d-4824-a598-79a778fddfb4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-16px!important}</style></head>
+<body>
+  <div id="wrapper">
+    <div id="main" class="accessible">
+      
+
+<script class="js-metadata processed" data-key="JBEN.FormControl.maxFileSizeMb" data-type="number" data-value="100" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.GeocodeEarthProxyUrl" data-type="string" data-value="https://api-geocode-earth-proxy.greenhouse.io/" type="text/configuration"></script>
+
+
+
+<div id="app_body" style="padding-left:20px">
+  <div class="logo-container">
+  </div>
+
+    <div id="header">
+
+  <h1 class="app-title">Engineering Manager - Public Cloud, Python, Golang</h1>
+
+  <span class="company-name">
+    at Canonical - Jobs
+  </span>
+
+    <a data-mapped="true" target="_top" href="https://job-boards.greenhouse.io/canonicaljobs">(View all jobs)</a>
+
+    <div class="location">
+      Home based - Canada, Montreal
+    </div>
+</div>
+  <div id="content" class="">
+    
+
+    <p>Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.</p>
+<p>The company is founder-led, profitable, and growing.</p>
+<p>We are hiring an Engineering Manager to lead one of our teams that work closely with Amazon, Microsoft, Google and other world-class cloud partners to optimize Ubuntu for their infrastructure. Our team builds, tests, and publishes the base Ubuntu images used by millions to ensure optimal performance and security in their cloud estate. We aim to deliver the very best public cloud VM experience, as well as specialized images for specific purposes on each cloud.&nbsp;Our goal is to celebrate and enable their particular points of differentiation on their clouds, while also ensure a common operating experience for their users.</p>
+<p>As an engineering manager you need to bring both technical and management skills to the leadership of your team. You will also need to represent the team in direct partner engagement. You’ll be responsible for the stability and functionality that our cloud users have come to expect. You will strive to automate the delivery of existing and new Ubuntu image products applied to all modern workloads from web servers to GPU-aided AI for servers, VM’s and containers.</p>
+<p>As an engineering manager at Canonical your primary responsibility is to the people you support: ensuring that they are growing as engineers, doing valuable work, and generally having a great time at Canonical. As a lead for strong engineers, technical leadership and a solid background in software development is a must, so that you’re able to challenge and grow your team members. You will have the opportunity to influence the culture, facilitate technical delivery, and work with your team on strategy and execution.</p>
+<p>We work in Python and Golang, and expect engineering managers to be fluent in the language, architecture and components that their team is building with. Code reviews and architectural leadership are part of the job. As manager, the commitment to healthy engineering practices, documentation, quality and performance optimisation are equally important technical responsibilities, as is the requirement for fair and clear management, and the obligation to ensure a high performing team.</p>
+<h2>The role entails</h2>
+<ul>
+<li>Build and lead a team of engineers in your and similar timezones</li>
+<li>Develop talent through coaching, mentoring, feedback and hands-on career development</li>
+<li>Demonstrate sound engineering principles and directly contribute toward your team’s goals</li>
+<li>Set and manage expectations with other engineering teams, management, and external stakeholders</li>
+<li>Lead modern, agile software development practices</li>
+<li>Ensure a healthy, collaborative engineering culture in line with the company values</li>
+<li>Be an active part of the leadership team and collaborate with other leaders in the organisation</li>
+<li>Build automated, highly reliable image delivery, testing and publication pipelines</li>
+<li>Engage with many other teams at Canonical, as well as the open source community and commercial partners</li>
+<li>Work from home with global travel up to 15% for internal and external events</li>
+</ul>
+<h2>What we are looking for in you</h2>
+<ul>
+<li>You love to mentor, develop and grow people, and have a track record of doing it</li>
+<li>You are knowledgeable and passionate about software development</li>
+<li>You are focused on success and the delivery of timely, high quality software</li>
+<li>You have experience and commitment to agile development methodologies</li>
+<li>You have a Bachelor’s or equivalent in Computer Science, STEM or similar degree</li>
+<li>Software development experience in Python or Golang</li>
+<li>Effective written and verbal communication skills</li>
+<li>Practical experience with at least one of Microsoft Azure, Google Cloud, or AWS</li>
+</ul>
+<h2>What we offer colleagues</h2>
+<p>We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.</p>
+<ul>
+<li>Distributed work environment with twice-yearly team sprints in person</li>
+<li>Personal learning and development budget of USD 2,000 per year</li>
+<li>Annual compensation review</li>
+<li>Recognition rewards</li>
+<li>Annual holiday leave</li>
+<li>Maternity and paternity leave</li>
+<li>Team Member Assistance Program &amp; Wellness Platform</li>
+<li>Opportunity to travel to new locations to meet colleagues</li>
+<li>Priority Pass and travel upgrades for long-haul company events</li>
+</ul>
+<h2>About Canonical</h2>
+<p>Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.&ZeroWidthSpace; Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.</p>
+<h2>Canonical is an equal opportunity employer</h2>
+<p>We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products.<a href="https://canonical.com/careers/diversity/identity"> Whatever your identity, we will give your application fair consideration.</a></p>
+<p>#LI-remote</p>
+
+    
+
+    
+</div>
+
+    <div id="application" class="">
+      <a name="app"></a>
+      <form id="application_form" enctype="multipart/form-data" action="https://boards.greenhouse.io/embed/canonicaljobs/jobs/6909295" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓" autocomplete="off">
+        <input type="hidden" name="fingerprint" id="fingerprint" value="de0f8284263e7b17004512f9f37f9d956cedf54d" autocomplete="off">
+        <input type="hidden" name="render_date" id="render_date" value="2026-01-20 08:55:22 +0000" autocomplete="off">
+        <input type="hidden" name="page_load_time" id="page_load_time" value="Tue, 20 Jan 2026 08:55:23 GMT" autocomplete="off">
+
+
+          <input type="hidden" name="from_embed" id="from_embed" value="true" autocomplete="off">
+
+        <div id="main_fields">
+            <h2 class="heading">Apply for this Job</h2>
+
+            <div class="required-fields">
+              <span class="asterisk">*</span> Required
+            </div>
+
+          <div class="clear"></div>
+
+            <div id="apply_with_buttons">
+                
+
+  <div name="widget-holder">
+  <script type="text/javascript" src="https://www.linkedin.com/mjobs/awli/awliWidget"></script>
+  <span class="IN-widget" data-lnkd-debug="&lt;script type=&quot;IN/AwliWidget+init&quot; data-company-job-code=&quot;6909295&quot; data-allow-sign-in=&quot;true&quot; data-callback-method=&quot;JBEN.LinkedinProfile.receive&quot; data-mode=&quot;BUTTON_DATA&quot; data-api-key=&quot;775iqcl0oenj80&quot; data-integration-context=&quot;urn:li:organization:234280&quot;&gt;
+//&lt;![CDATA[
+
+//]]&gt;
+&lt;/script&gt;" style="display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px;"><iframe id="{&quot;xdOrigin&quot;:&quot;https://boards.greenhouse.io&quot;,&quot;xdChannel&quot;:&quot;3ea85f00-3948-4497-bf7b-453ac849efe0&quot;,&quot;framework&quot;:&quot;@linkedin/xdoor-sdk&quot;,&quot;version&quot;:&quot;0.2.23&quot;,&quot;debug&quot;:false}" name="{&quot;xdOrigin&quot;:&quot;https://boards.greenhouse.io&quot;,&quot;xdChannel&quot;:&quot;3ea85f00-3948-4497-bf7b-453ac849efe0&quot;,&quot;framework&quot;:&quot;@linkedin/xdoor-sdk&quot;,&quot;version&quot;:&quot;0.2.23&quot;,&quot;debug&quot;:false}" src="about:blank" class="IN-widget IN-widget--iframe" scrolling="no" allowtransparency="true" frameborder="0" border="0" width="188" height="0" title="LinkedIn Embedded Content" style="vertical-align: bottom; width: 227px; height: 48px;"></iframe></span>
+  <script>
+    window.addEventListener('load', function() {
+      if ($) {
+        $("iframe[src*='linkedin.com']").attr("title", "Apply With LinkedIn")
+      }
+    });
+  </script>
+</div>
+
+
+
+              <hr>
+            </div>
+
+          
+<script type="text/configuration" data-email-address-validator-url="https://email-address-validator.us.greenhouse.io/address/validate"></script>
+
+<div class="field">
+  <label for="first_name">First Name <span class="asterisk">*</span></label>
+  <input type="text" id="first_name" name="job_application[first_name]" aria-required="true" maxlength="255" autocomplete="given-name">
+</div>
+<div class="field">
+  <label for="last_name">Last Name <span class="asterisk">*</span></label>
+  <input type="text" id="last_name" name="job_application[last_name]" aria-required="true" maxlength="255" autocomplete="family-name">
+</div>
+<div class="field">
+  <label for="email">Email <span class="asterisk">*</span></label>
+  <input type="text" id="email" name="job_application[email]" aria-required="true" maxlength="255" autocomplete="email">
+</div>
+<div class="field">
+  <label for="phone">Phone</label>
+  <input type="text" id="phone" name="job_application[phone]" maxlength="255" autocomplete="tel">
+</div>
+
+<div id="dev-fields" aria-hidden="true" style="display: none;">
+  <div class="field">
+    <label for="dev-field-1"></label>
+    <input type="text" id="dev-field-1" name="dev_field_1" maxlength="255" autocomplete="off">
+  </div>
+</div>
+
+
+
+          
+<div class="field">
+  <fieldset id="resume_fieldset" aria-describedby="validate_resume">
+    <legend>
+      <label aria-label="required" id="resume">
+        Resume/CV <span class="asterisk">*</span>
+      </label>
+    </legend>
+  
+<div class="attach-or-paste" required="required" data-allow-s3="true" data-field="resume" data-file-types="[&quot;pdf&quot;,&quot;doc&quot;,&quot;docx&quot;,&quot;txt&quot;,&quot;rtf&quot;]" data-model="job_application">
+
+  <div class="drop-zone hidden">
+    Drop files here
+  </div>
+
+  <div id="resume_chosen" class="chosen">
+    <img alt="resume chosen" src="https://boards.cdn.greenhouse.io/assets/file-296f4c2a42607d24e6901b7c58b0693d4178df7fe4edf1b50e9585efdfad7d39.png">&nbsp;&nbsp;
+    <span id="resume_filename"></span>
+    <button name="button" type="button" class="unstyled-button remove" aria-label="Remove attachment"><img width="11" height="11" alt="Remove attachment" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png"></button>
+</div>
+  <div class="link-container">
+    <button name="button" type="button" data-source="attach" class="unstyled-button link-button" aria-describedby="resume-allowable-file-types">Attach</button>
+
+        <a data-source="dropbox" href="#">Dropbox</a>
+
+
+      <button name="button" type="button" data-source="paste" class="unstyled-button link-button" aria-pressed="false">or enter manually</button>
+</div>  <div data-messages="uploaders"></div>
+
+  <div class="validation-anchor" id="validate_resume" style="display: none"></div>
+  <div id="resume-allowable-file-types" class="file-types">
+    (File types: pdf, doc, docx, txt, rtf)
+  </div>
+
+  <div class="progress-bar">
+    <div class="upload">
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+    <a href="#" class="cancel">
+      <img width="11" height="11" alt="Cancel" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png">
+    </a>
+</div>
+    <textarea name="job_application[resume_text]" id="resume_text" class="paste" title="Enter manually"></textarea>
+
+</div>
+
+  </fieldset>
+</div>
+
+
+
+            <span id="education_instructions">
+              When autocomplete results are available use up and down arrows to review
+            </span>
+
+            <div id="education_section"><div class="education" data-education-required="false" data-subfield-config="true">
+  <hr>
+  <fieldset>
+
+      <div class="field">
+        <label for="education_school_name_0">
+          School
+        </label>
+
+        <div class="select2-container school-name background-field" id="s2id_education_school_name_0" style="width: 60%;"><a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-9">Select a School</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen9" class="select2-offscreen">
+          School
+        </label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-9" id="s2id_autogen9" aria-describedby="education_instructions"><div class="select2-drop select2-display-none select2-with-searchbox">   <div class="select2-search">       <label for="s2id_autogen9_search" class="select2-offscreen">
+          School
+        </label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-9" id="s2id_autogen9_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-9">   </ul></div></div><input type="hidden" name="job_application[educations][][school_name_id]" id="education_school_name_0" class="school-name background-field" placeholder="Select a School" aria-required="false" data-url="https://boards-api.greenhouse.io/v1/boards/canonicaljobs/education/schools" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;SchoolNameRequired&quot;}]" autocomplete="off" tabindex="-1" title="
+          School
+        " style="display: none;">
+
+        <a class="remove-background-field hidden" href="#"><img alt="Remove Education" src="https://boards.cdn.greenhouse.io/assets/svg/close-2388e0f798509ffdefd9fe48321955a399f62a302d4f33f96e798f2272a7b52d.svg"></a>
+      </div>
+
+      <div class="field">
+        <label for="education_degree_0">
+          Degree
+        </label>
+
+        <div class="select2-container degree background-field" id="s2id_education_degree_0" style="width: 60%;"><a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-10">Select a Degree</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen10" class="select2-offscreen">
+          Degree
+        </label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-10" id="s2id_autogen10" aria-describedby="education_instructions"><div class="select2-drop select2-display-none select2-with-searchbox">   <div class="select2-search">       <label for="s2id_autogen10_search" class="select2-offscreen">
+          Degree
+        </label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-10" id="s2id_autogen10_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-10">   </ul></div></div><select name="job_application[educations][][degree_id]" id="education_degree_0" class="degree background-field" aria-required="false" data-placeholder="Select a Degree" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;DegreeRequired&quot;}]" tabindex="-1" title="
+          Degree
+        " style="display: none;"><option value=""></option>
+<option value="11331789">High School</option>
+<option value="11331790">Associate's Degree</option>
+<option value="11331791">Bachelor's Degree</option>
+<option value="11331792">Master's Degree</option>
+<option value="11331793">Master of Business Administration (M.B.A.)</option>
+<option value="11331794">Juris Doctor (J.D.)</option>
+<option value="11331795">Doctor of Medicine (M.D.)</option>
+<option value="11331796">Doctor of Philosophy (Ph.D.)</option>
+<option value="11331797">Engineer's Degree</option>
+<option value="11331798">Other</option>
+<option value="11881594">Computer Science Degree</option></select>
+      </div>
+
+      <div class="field">
+        <label for="education_discipline_0">
+          Discipline
+        </label>
+
+        <div class="select2-container discipline background-field" id="s2id_education_discipline_0" style="width: 60%;"><a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-11">Select a Discipline</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen11" class="select2-offscreen">
+          Discipline
+        </label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-11" id="s2id_autogen11" aria-describedby="education_instructions"><div class="select2-drop select2-display-none select2-with-searchbox">   <div class="select2-search">       <label for="s2id_autogen11_search" class="select2-offscreen">
+          Discipline
+        </label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-11" id="s2id_autogen11_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-11">   </ul></div></div><select name="job_application[educations][][discipline_id]" id="education_discipline_0" class="discipline background-field" aria-required="false" data-placeholder="Select a Discipline" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;DisciplineRequired&quot;}]" tabindex="-1" title="
+          Discipline
+        " style="display: none;"><option value=""></option>
+<option value="11331799">Accounting</option>
+<option value="11331800">African Studies</option>
+<option value="11331801">Agriculture</option>
+<option value="11331802">Anthropology</option>
+<option value="11331803">Applied Health Services</option>
+<option value="11331804">Architecture</option>
+<option value="11331805">Art</option>
+<option value="11331806">Asian Studies</option>
+<option value="11331807">Biology</option>
+<option value="11331808">Business</option>
+<option value="11331809">Business Administration</option>
+<option value="11331810">Chemistry</option>
+<option value="11331811">Classical Languages</option>
+<option value="11331812">Communications &amp; Film</option>
+<option value="11331813">Computer Science</option>
+<option value="11331814">Dentistry</option>
+<option value="11331815">Developing Nations</option>
+<option value="11331816">Discipline Unknown</option>
+<option value="11331817">Earth Sciences</option>
+<option value="11331818">Economics</option>
+<option value="11331819">Education</option>
+<option value="11331820">Electronics</option>
+<option value="11331821">Engineering</option>
+<option value="11331822">English Studies</option>
+<option value="11331823">Environmental Studies</option>
+<option value="11331824">European Studies</option>
+<option value="11331825">Fashion</option>
+<option value="11331826">Finance</option>
+<option value="11331827">Fine Arts</option>
+<option value="11331828">General Studies</option>
+<option value="11331829">Health Services</option>
+<option value="11331830">History</option>
+<option value="11331831">Human Resources Management</option>
+<option value="11331832">Humanities</option>
+<option value="11331833">Industrial Arts &amp; Carpentry</option>
+<option value="11331834">Information Systems</option>
+<option value="11331835">International Relations</option>
+<option value="11331836">Journalism</option>
+<option value="11331837">Languages</option>
+<option value="11331838">Latin American Studies</option>
+<option value="11331839">Law</option>
+<option value="11331840">Linguistics</option>
+<option value="11331841">Manufacturing &amp; Mechanics</option>
+<option value="11331842">Mathematics</option>
+<option value="11331843">Medicine</option>
+<option value="11331844">Middle Eastern Studies</option>
+<option value="11331845">Naval Science</option>
+<option value="11331846">North American Studies</option>
+<option value="11331847">Nuclear Technics</option>
+<option value="11331848">Operations Research &amp; Strategy</option>
+<option value="11331849">Organizational Theory</option>
+<option value="11331850">Philosophy</option>
+<option value="11331851">Physical Education</option>
+<option value="11331852">Physical Sciences</option>
+<option value="11331853">Physics</option>
+<option value="11331854">Political Science</option>
+<option value="11331855">Psychology</option>
+<option value="11331856">Public Policy</option>
+<option value="11331857">Public Service</option>
+<option value="11331858">Religious Studies</option>
+<option value="11331859">Russian &amp; Soviet Studies</option>
+<option value="11331860">Scandinavian Studies</option>
+<option value="11331861">Science</option>
+<option value="11331862">Slavic Studies</option>
+<option value="11331863">Social Science</option>
+<option value="11331864">Social Sciences</option>
+<option value="11331865">Sociology</option>
+<option value="11331866">Speech</option>
+<option value="11331867">Statistics &amp; Decision Theory</option>
+<option value="11331868">Urban Studies</option>
+<option value="11331869">Veterinary Medicine</option>
+<option value="12065635">Other</option></select>
+      </div>
+
+
+  </fieldset>
+</div></div>
+
+<a id="add_education" href="#">
+  + Add another education
+</a>
+
+        </div>
+
+            <hr>
+
+          <div id="custom_fields">
+            <div class="field">
+  <label>How did you perform in mathematics at high school?<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][0][question_id]" id="job_application_answers_attributes_0_question_id" value="56913073" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][0][priority]" id="job_application_answers_attributes_0_priority" value="0" autocomplete="off">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_0_answer_selected_options_attributes_0_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-1">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen1" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-1" id="s2id_autogen1"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen1_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-1" id="s2id_autogen1_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-1">   </ul></div></div><select name="job_application[answers_attributes][0][answer_selected_options_attributes][0][question_option_id]" id="job_application_answers_attributes_0_answer_selected_options_attributes_0_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="534755312">Cannot recall</option>
+<option value="534755313">Not a strength</option>
+<option value="534755314">Top 50% at school</option>
+<option value="534755315">Top 20% at school</option>
+<option value="534755316">Top 10% at school</option>
+<option value="534755317">Top 5% at school</option>
+<option value="534755318">Top 1% in the region</option>
+<option value="534755319">Top 0.1% in the region</option>
+<option value="534755320">Top 0.01% in the region</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>How did you perform in your native language at high school?<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][1][question_id]" id="job_application_answers_attributes_1_question_id" value="56913074" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][1][priority]" id="job_application_answers_attributes_1_priority" value="1" autocomplete="off">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_1_answer_selected_options_attributes_1_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-2">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen2" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-2" id="s2id_autogen2"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen2_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-2" id="s2id_autogen2_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-2">   </ul></div></div><select name="job_application[answers_attributes][1][answer_selected_options_attributes][1][question_option_id]" id="job_application_answers_attributes_1_answer_selected_options_attributes_1_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="534755321">Cannot recall</option>
+<option value="534755322">Not a strength</option>
+<option value="534755323">Top 50% at school</option>
+<option value="534755324">Top 20% at school</option>
+<option value="534755325">Top 10% at school</option>
+<option value="534755326">Top 5% at school</option>
+<option value="534755327">Top 1% in the region</option>
+<option value="534755328">Top 0.1% in the region</option>
+<option value="534755329">Top 0.01% in the region</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>Please share your rationale or evidence for the high school performance selections above. Make reference to  provincial, state or nation-wide scoring systems, rankings, or recognition awards, or to competitive or selective college entrance results such as SAT or ACT scores, JAMB, matriculation results, IB results etc. We recognise every system is different but we will ask you to justify your selections above.<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][2][question_id]" id="job_application_answers_attributes_2_question_id" value="56913075" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][2][priority]" id="job_application_answers_attributes_2_priority" value="2" autocomplete="off">
+
+<textarea name="job_application[answers_attributes][2][text_value]" id="job_application_answers_attributes_2_text_value" aria-required="true" autocomplete="custom-question-please-share-your-rationale-or-evidence-for-the-high-school-performance-selections-above-make-reference-to--provincial-state-or-nationwide-scoring-systems-rankings-or-recognition-awards-or-to-competitive-or-selective-college-entrance-results-such-as-sat-or-act-scores-jamb-matriculation-results-ib-results-etc-we-recognise-every-system-is-different-but-we-will-ask-you-to-justify-your-selections-above"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>What was your bachelor's university degree result, or expected result if you have not yet graduated? Please include the grading system to help us understand your result e.g. ‘85 out of 100’, ‘2:1 (Grading system: first class, 2:1, 2:2, third class)’ or ‘GPA score of 3.8/4.0 (predicted)’. We have hired outstanding individuals who did not attend or complete university. If this describes you, please continue with your application and enter ‘no degree’.<span class="asterisk">&nbsp;*</span>
+    <br>
+    <span><p>Universities around the world score degrees in different ways. Please indicate your result, or expected result if you are close to graduation, along with information about the grading system.</p></span>
+    <input type="hidden" name="job_application[answers_attributes][3][question_id]" id="job_application_answers_attributes_3_question_id" value="56913076" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][3][priority]" id="job_application_answers_attributes_3_priority" value="3" autocomplete="off">
+
+<textarea name="job_application[answers_attributes][3][text_value]" id="job_application_answers_attributes_3_text_value" aria-required="true" autocomplete="custom-question-what-was-your-bachelors-university-degree-result-or-expected-result-if-you-have-not-yet-graduated-please-include-the-grading-system-to-help-us-understand-your-result-eg-85-out-of-100-21-grading-system-first-class-21-22-third-class-or-gpa-score-of-3840-predicted-we-have-hired-outstanding-individuals-who-did-not-attend-or-complete-university-if-this-describes-you-please-continue-with-your-application-and-enter-no-degree"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>We require all colleagues to meet in person 2-4 times a year, at internal company events lasting between 1-2 weeks. We try to pick new and interesting locations that will likely require international travel and entry requirement visas and vaccinations. Are you willing and able to commit to this?<span class="asterisk">&nbsp;*</span>
+    <br>
+    <span><p>Please note that if you require any accommodation for travel that relates to a physical disability, do let us know during your hiring process and we will be happy to discuss your requirements further.</p></span>
+    <input type="hidden" name="job_application[answers_attributes][4][question_id]" id="job_application_answers_attributes_4_question_id" value="56913077" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][4][priority]" id="job_application_answers_attributes_4_priority" value="4" autocomplete="off">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_4_boolean_value" style="width: 385px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-3">--</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen3" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-3" id="s2id_autogen3"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen3_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-3" id="s2id_autogen3_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-3">   </ul></div></div><select name="job_application[answers_attributes][4][boolean_value]" id="job_application_answers_attributes_4_boolean_value" aria-required="true" tabindex="-1" title="" style="display: none;"><option value="">--</option>
+<option value="1">Yes</option>
+<option value="0">No</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>Website
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][5][question_id]" id="job_application_answers_attributes_5_question_id" value="56913078" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][5][priority]" id="job_application_answers_attributes_5_priority" value="5" autocomplete="off">
+
+<input type="text" name="job_application[answers_attributes][5][text_value]" id="job_application_answers_attributes_5_text_value" aria-required="false" maxlength="255" autocomplete="custom-question-website">
+
+
+</label></div>
+<div class="field">
+  <label>LinkedIn Profile 
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][6][question_id]" id="job_application_answers_attributes_6_question_id" value="56913079" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][6][priority]" id="job_application_answers_attributes_6_priority" value="6" autocomplete="off">
+
+<input type="text" name="job_application[answers_attributes][6][text_value]" id="job_application_answers_attributes_6_text_value" aria-required="false" maxlength="255" autocomplete="custom-question-linkedin-profile-">
+
+
+</label></div>
+<div class="field">
+  <label>In which country do you currently work?<span class="asterisk">&nbsp;*</span>
+    <br>
+    <span><p>Please select your current location from the dropdown.</p></span>
+    <input type="hidden" name="job_application[answers_attributes][7][question_id]" id="job_application_answers_attributes_7_question_id" value="56913080" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][7][priority]" id="job_application_answers_attributes_7_priority" value="7" autocomplete="off">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_7_answer_selected_options_attributes_7_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-4">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen4" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-4" id="s2id_autogen4"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen4_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-4" id="s2id_autogen4_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-4">   </ul></div></div><select name="job_application[answers_attributes][7][answer_selected_options_attributes][7][question_option_id]" id="job_application_answers_attributes_7_answer_selected_options_attributes_7_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="534755648">Afghanistan</option>
+<option value="534755649">Åland Islands</option>
+<option value="534755650">Albania</option>
+<option value="534755651">Algeria</option>
+<option value="534755652">American Samoa</option>
+<option value="534755653">Andorra</option>
+<option value="534755654">Angola</option>
+<option value="534755655">Anguilla</option>
+<option value="534755656">Antarctica</option>
+<option value="534755657">Antigua and Barbuda</option>
+<option value="534755658">Argentina</option>
+<option value="534755659">Armenia</option>
+<option value="534755660">Aruba</option>
+<option value="534755661">Australia</option>
+<option value="534755662">Austria</option>
+<option value="534755663">Azerbaijan</option>
+<option value="534755664">Bahamas</option>
+<option value="534755665">Bahrain</option>
+<option value="534755666">Bangladesh</option>
+<option value="534755667">Barbados</option>
+<option value="534755668">Belarus</option>
+<option value="534755669">Belgium</option>
+<option value="534755670">Belize</option>
+<option value="534755671">Benin</option>
+<option value="534755672">Bermuda</option>
+<option value="534755673">Bhutan</option>
+<option value="534755674">Bolivia (Plurinational State of)</option>
+<option value="534755675">Bonaire, Sint Eustatius and Saba</option>
+<option value="534755676">Bosnia and Herzegovina</option>
+<option value="534755677">Botswana</option>
+<option value="534755678">Bouvet Island</option>
+<option value="534755679">Brazil</option>
+<option value="534755680">British Indian Ocean Territory</option>
+<option value="534755681">Brunei Darussalam</option>
+<option value="534755682">Bulgaria</option>
+<option value="534755683">Burkina Faso</option>
+<option value="534755684">Burundi</option>
+<option value="534755685">Cambodia</option>
+<option value="534755686">Cameroon</option>
+<option value="534755687">Canada</option>
+<option value="534755688">Cabo Verde</option>
+<option value="534755689">Cayman Islands</option>
+<option value="534755690">Central African Republic</option>
+<option value="534755691">Chad</option>
+<option value="534755692">Chile</option>
+<option value="534755693">China</option>
+<option value="534755694">Christmas Island</option>
+<option value="534755695">Cocos (Keeling) Islands</option>
+<option value="534755696">Colombia</option>
+<option value="534755697">Comoros</option>
+<option value="534755698">Congo</option>
+<option value="534755699">Congo (Democratic Republic of the)</option>
+<option value="534755700">Cook Islands</option>
+<option value="534755701">Costa Rica</option>
+<option value="534755702">Côte d'Ivoire</option>
+<option value="534755703">Croatia</option>
+<option value="534755704">Cuba</option>
+<option value="534755705">Curaçao</option>
+<option value="534755706">Cyprus</option>
+<option value="534755707">Czech Republic</option>
+<option value="534755708">Denmark</option>
+<option value="534755709">Djibouti</option>
+<option value="534755710">Dominica</option>
+<option value="534755711">Dominican Republic</option>
+<option value="534755712">Ecuador</option>
+<option value="534755713">Egypt</option>
+<option value="534755714">El Salvador</option>
+<option value="534755715">Equatorial Guinea</option>
+<option value="534755716">Eritrea</option>
+<option value="534755717">Estonia</option>
+<option value="534755718">Ethiopia</option>
+<option value="534755719">Falkland Islands (Malvinas)</option>
+<option value="534755720">Faroe Islands</option>
+<option value="534755721">Fiji</option>
+<option value="534755722">Finland</option>
+<option value="534755723">France</option>
+<option value="534755724">French Guiana</option>
+<option value="534755725">French Polynesia</option>
+<option value="534755726">French Southern Territories</option>
+<option value="534755727">Gabon</option>
+<option value="534755728">Gambia</option>
+<option value="534755729">Georgia</option>
+<option value="534755730">Germany</option>
+<option value="534755731">Ghana</option>
+<option value="534755732">Gibraltar</option>
+<option value="534755733">Greece</option>
+<option value="534755734">Greenland</option>
+<option value="534755735">Grenada</option>
+<option value="534755736">Guadeloupe</option>
+<option value="534755737">Guam</option>
+<option value="534755738">Guatemala</option>
+<option value="534755739">Guernsey</option>
+<option value="534755740">Guinea</option>
+<option value="534755741">Guinea-Bissau</option>
+<option value="534755742">Guyana</option>
+<option value="534755743">Haiti</option>
+<option value="534755744">Heard Island and McDonald Islands</option>
+<option value="534755745">Holy See</option>
+<option value="534755746">Honduras</option>
+<option value="534755747">Hong Kong</option>
+<option value="534755748">Hungary</option>
+<option value="534755749">Iceland</option>
+<option value="534755750">India</option>
+<option value="534755751">Indonesia</option>
+<option value="534755752">Iran (Islamic Republic of)</option>
+<option value="534755753">Iraq</option>
+<option value="534755754">Ireland</option>
+<option value="534755755">Isle of Man</option>
+<option value="534755756">Israel</option>
+<option value="534755757">Italy</option>
+<option value="534755758">Jamaica</option>
+<option value="534755759">Japan</option>
+<option value="534755760">Jersey</option>
+<option value="534755761">Jordan</option>
+<option value="534755762">Kazakhstan</option>
+<option value="534755763">Kenya</option>
+<option value="534755764">Kiribati</option>
+<option value="534755765">Korea (Democratic People's Republic of)</option>
+<option value="534755766">Korea (Republic of)</option>
+<option value="534755767">Kosovo (Republic of)</option>
+<option value="534755768">Kuwait</option>
+<option value="534755769">Kyrgyzstan</option>
+<option value="534755770">Lao People's Democratic Republic</option>
+<option value="534755771">Latvia</option>
+<option value="534755772">Lebanon</option>
+<option value="534755773">Lesotho</option>
+<option value="534755774">Liberia</option>
+<option value="534755775">Libya</option>
+<option value="534755776">Liechtenstein</option>
+<option value="534755777">Lithuania</option>
+<option value="534755778">Luxembourg</option>
+<option value="534755779">Macao</option>
+<option value="534755780">Macedonia (the former Yugoslav Republic of)</option>
+<option value="534755781">Madagascar</option>
+<option value="534755782">Malawi</option>
+<option value="534755783">Malaysia</option>
+<option value="534755784">Maldives</option>
+<option value="534755785">Mali</option>
+<option value="534755786">Malta</option>
+<option value="534755787">Marshall Islands</option>
+<option value="534755788">Martinique</option>
+<option value="534755789">Mauritania</option>
+<option value="534755790">Mauritius</option>
+<option value="534755791">Mayotte</option>
+<option value="534755792">Mexico</option>
+<option value="534755793">Micronesia (Federated States of)</option>
+<option value="534755794">Moldova (Republic of)</option>
+<option value="534755795">Monaco</option>
+<option value="534755796">Mongolia</option>
+<option value="534755797">Montenegro</option>
+<option value="534755798">Montserrat</option>
+<option value="534755799">Morocco</option>
+<option value="534755800">Mozambique</option>
+<option value="534755801">Myanmar</option>
+<option value="534755802">Namibia</option>
+<option value="534755803">Nauru</option>
+<option value="534755804">Nepal</option>
+<option value="534755805">Netherlands</option>
+<option value="534755806">New Caledonia</option>
+<option value="534755807">New Zealand</option>
+<option value="534755808">Nicaragua</option>
+<option value="534755809">Niger</option>
+<option value="534755810">Nigeria</option>
+<option value="534755811">Niue</option>
+<option value="534755812">Norfolk Island</option>
+<option value="534755813">Northern Mariana Islands</option>
+<option value="534755814">Norway</option>
+<option value="534755815">Oman</option>
+<option value="534755816">Pakistan</option>
+<option value="534755817">Palau</option>
+<option value="534755818">Palestine, State of</option>
+<option value="534755819">Panama</option>
+<option value="534755820">Papua New Guinea</option>
+<option value="534755821">Paraguay</option>
+<option value="534755822">Peru</option>
+<option value="534755823">Philippines</option>
+<option value="534755824">Pitcairn</option>
+<option value="534755825">Poland</option>
+<option value="534755826">Portugal</option>
+<option value="534755827">Puerto Rico</option>
+<option value="534755828">Qatar</option>
+<option value="534755829">Réunion</option>
+<option value="534755830">Romania</option>
+<option value="534755831">Russian Federation</option>
+<option value="534755832">Rwanda</option>
+<option value="534755833">Saint Barthélemy</option>
+<option value="534755834">Saint Helena, Ascension and Tristan da Cunha</option>
+<option value="534755835">Saint Kitts and Nevis</option>
+<option value="534755836">Saint Lucia</option>
+<option value="534755837">Saint Martin (French part)</option>
+<option value="534755838">Saint Pierre and Miquelon</option>
+<option value="534755839">Saint Vincent and the Grenadines</option>
+<option value="534755840">Samoa</option>
+<option value="534755841">San Marino</option>
+<option value="534755842">Sao Tome and Principe</option>
+<option value="534755843">Saudi Arabia</option>
+<option value="534755844">Senegal</option>
+<option value="534755845">Serbia</option>
+<option value="534755846">Seychelles</option>
+<option value="534755847">Sierra Leone</option>
+<option value="534755848">Singapore</option>
+<option value="534755849">Sint Maarten (Dutch part)</option>
+<option value="534755850">Slovakia</option>
+<option value="534755851">Slovenia</option>
+<option value="534755852">Solomon Islands</option>
+<option value="534755853">Somalia</option>
+<option value="534755854">South Africa</option>
+<option value="534755855">South Georgia and the South Sandwich Islands</option>
+<option value="534755856">South Sudan</option>
+<option value="534755857">Spain</option>
+<option value="534755858">Sri Lanka</option>
+<option value="534755859">Sudan</option>
+<option value="534755860">Suriname</option>
+<option value="534755861">Svalbard and Jan Mayen</option>
+<option value="534755862">Swaziland</option>
+<option value="534755863">Sweden</option>
+<option value="534755864">Switzerland</option>
+<option value="534755865">Syrian Arab Republic</option>
+<option value="534755866">Taiwan</option>
+<option value="534755867">Tajikistan</option>
+<option value="534755868">Tanzania, United Republic of</option>
+<option value="534755869">Thailand</option>
+<option value="534755870">Timor-Leste</option>
+<option value="534755871">Togo</option>
+<option value="534755872">Tokelau</option>
+<option value="534755873">Tonga</option>
+<option value="534755874">Trinidad and Tobago</option>
+<option value="534755875">Tunisia</option>
+<option value="534755876">Turkey</option>
+<option value="534755877">Turkmenistan</option>
+<option value="534755878">Turks and Caicos Islands</option>
+<option value="534755879">Tuvalu</option>
+<option value="534755880">Uganda</option>
+<option value="534755881">Ukraine</option>
+<option value="534755882">United Arab Emirates</option>
+<option value="534755883">United Kingdom</option>
+<option value="534755885">United States of America - Alabama</option>
+<option value="534755886">United States of America - Alaska</option>
+<option value="534755887">United States of America - Arizona</option>
+<option value="534755888">United States of America - Arkansas</option>
+<option value="534755889">United States of America - California</option>
+<option value="534755890">United States of America - Colorado</option>
+<option value="534755891">United States of America - Connecticut</option>
+<option value="534755892">United States of America - Delaware</option>
+<option value="534755893">United States of America - District of Columbia</option>
+<option value="534755894">United States of America - Florida</option>
+<option value="534755895">United States of America - Georgia</option>
+<option value="534755896">United States of America - Hawaii</option>
+<option value="534755897">United States of America - Idaho</option>
+<option value="534755898">United States of America - Illinois</option>
+<option value="534755899">United States of America - Indiana</option>
+<option value="534755900">United States of America - Iowa</option>
+<option value="534755901">United States of America - Kansas</option>
+<option value="534755902">United States of America - Kentucky</option>
+<option value="534755903">United States of America - Louisiana</option>
+<option value="534755904">United States of America - Maine</option>
+<option value="534755905">United States of America - Maryland</option>
+<option value="534755906">United States of America - Massachusetts</option>
+<option value="534755907">United States of America - Michigan</option>
+<option value="534755908">United States of America - Minnesota</option>
+<option value="534755909">United States of America - Mississippi</option>
+<option value="534755910">United States of America - Missouri</option>
+<option value="534755911">United States of America - Montana</option>
+<option value="534755912">United States of America - Nebraska</option>
+<option value="534755913">United States of America - Nevada</option>
+<option value="534755914">United States of America - New Hampshire</option>
+<option value="534755915">United States of America - New Jersey</option>
+<option value="534755916">United States of America - New Mexico</option>
+<option value="534755917">United States of America - New York</option>
+<option value="534755918">United States of America - North Carolina</option>
+<option value="534755919">United States of America - North Dakota</option>
+<option value="534755920">United States of America - Ohio</option>
+<option value="534755921">United States of America - Oklahoma</option>
+<option value="534755922">United States of America - Oregon</option>
+<option value="534755923">United States of America - Pennsylvania</option>
+<option value="534755924">United States of America - Puerto Rico</option>
+<option value="534755925">United States of America - Rhode Island</option>
+<option value="534755926">United States of America - South Carolina</option>
+<option value="534755927">United States of America - South Dakota</option>
+<option value="534755928">United States of America - Tennessee</option>
+<option value="534755929">United States of America - Texas</option>
+<option value="534755930">United States of America - Utah</option>
+<option value="534755931">United States of America - Vermont</option>
+<option value="534755932">United States of America - Virginia</option>
+<option value="534755933">United States of America - Virgin Islands</option>
+<option value="534755934">United States of America - Washington</option>
+<option value="534755935">United States of America - West Virginia</option>
+<option value="534755936">United States of America - Wisconsin</option>
+<option value="534755937">United States of America - Wyoming</option>
+<option value="534755938">United States Minor Outlying Islands</option>
+<option value="534755939">Uruguay</option>
+<option value="534755940">Uzbekistan</option>
+<option value="534755941">Vanuatu</option>
+<option value="534755942">Venezuela (Bolivarian Republic of)</option>
+<option value="534755943">Vietnam</option>
+<option value="534755944">Virgin Islands (British)</option>
+<option value="534755945">Virgin Islands (U.S.)</option>
+<option value="534755946">Wallis and Futuna</option>
+<option value="534755947">Western Sahara</option>
+<option value="534755948">Yemen</option>
+<option value="534755949">Zambia</option>
+<option value="534755950">Zimbabwe</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>Please confirm that you have read and agree to Canonical's Recruitment Privacy Notice and Privacy Policy.<span class="asterisk">&nbsp;*</span>
+    <br>
+    <span><p><a href="https://ubuntu.com/legal/data-privacy/recruitment">Recruitment Privacy Notice&nbsp;</a></p>
+<p><a href="https://ubuntu.com/legal/data-privacy?_ga=2.3133040.1366270434.1657548863-1016224624.1649073745">Privacy Policy</a></p></span>
+    <input type="hidden" name="job_application[answers_attributes][8][question_id]" id="job_application_answers_attributes_8_question_id" value="56913081" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][8][priority]" id="job_application_answers_attributes_8_priority" value="8" autocomplete="off">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_8_answer_selected_options_attributes_8_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-5">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen5" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-5" id="s2id_autogen5"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen5_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-5" id="s2id_autogen5_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-5">   </ul></div></div><select name="job_application[answers_attributes][8][answer_selected_options_attributes][8][question_option_id]" id="job_application_answers_attributes_8_answer_selected_options_attributes_8_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="534755632">Acknowledge/Confirm</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>Describe your engineering experience with Python and/or Golang<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][9][question_id]" id="job_application_answers_attributes_9_question_id" value="56913082" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][9][priority]" id="job_application_answers_attributes_9_priority" value="9" autocomplete="off">
+
+<textarea name="job_application[answers_attributes][9][text_value]" id="job_application_answers_attributes_9_text_value" aria-required="true" autocomplete="custom-question-describe-your-engineering-experience-with-python-andor-golang"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>Describe your software engineering leadership experience.<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][10][question_id]" id="job_application_answers_attributes_10_question_id" value="56913083" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][10][priority]" id="job_application_answers_attributes_10_priority" value="10" autocomplete="off">
+
+<textarea name="job_application[answers_attributes][10][text_value]" id="job_application_answers_attributes_10_text_value" aria-required="true" autocomplete="custom-question-describe-your-software-engineering-leadership-experience"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>Describe your experience with AWS, Azure and GCP, using VM level operations, and at what scale<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][11][question_id]" id="job_application_answers_attributes_11_question_id" value="56913084" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][11][priority]" id="job_application_answers_attributes_11_priority" value="11" autocomplete="off">
+
+<textarea name="job_application[answers_attributes][11][text_value]" id="job_application_answers_attributes_11_text_value" aria-required="true" autocomplete="custom-question-describe-your-experience-with-aws-azure-and-gcp-using-vm-level-operations-and-at-what-scale"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>Describe your experience with workflow engines and CI/CD<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][12][question_id]" id="job_application_answers_attributes_12_question_id" value="56913085" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][12][priority]" id="job_application_answers_attributes_12_priority" value="12" autocomplete="off">
+
+<textarea name="job_application[answers_attributes][12][text_value]" id="job_application_answers_attributes_12_text_value" aria-required="true" autocomplete="custom-question-describe-your-experience-with-workflow-engines-and-cicd"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>During this application process I agree to use only my own words. I understand that plagiarism, the use of AI or other generated content will disqualify my application.<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][13][question_id]" id="job_application_answers_attributes_13_question_id" value="56913086" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][13][priority]" id="job_application_answers_attributes_13_priority" value="13" autocomplete="off">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_13_boolean_value" style="width: 385px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-6">--</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen6" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-6" id="s2id_autogen6"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen6_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-6" id="s2id_autogen6_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-6">   </ul></div></div><select name="job_application[answers_attributes][13][boolean_value]" id="job_application_answers_attributes_13_boolean_value" aria-required="true" tabindex="-1" title="" style="display: none;"><option value="">--</option>
+<option value="1">Yes</option>
+<option value="0">No</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>In the past ten years, looking only at the time since you graduated your first undergraduate degree, how many companies have you worked for?<span class="asterisk">&nbsp;*</span>
+    <br>
+    <span><p>We're focused specifically on the last ten years, and only the portion of that since you left undergrad university. If you graduated three years ago, just count the number of companies you have worked for in those three years. If you graduated 25 years ago, just count the companies in the last ten years.</p>
+<p>If you worked for a company which was acquired or renamed, then please count that as one company not two. Don't count any university jobs or internships. If you have your own company or do private contracting work in addition to your employment, please count that as one company.</p></span>
+    <input type="hidden" name="job_application[answers_attributes][14][question_id]" id="job_application_answers_attributes_14_question_id" value="56913087" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][14][priority]" id="job_application_answers_attributes_14_priority" value="14" autocomplete="off">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_14_answer_selected_options_attributes_14_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-7">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen7" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-7" id="s2id_autogen7"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen7_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-7" id="s2id_autogen7_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-7">   </ul></div></div><select name="job_application[answers_attributes][14][answer_selected_options_attributes][14][question_option_id]" id="job_application_answers_attributes_14_answer_selected_options_attributes_14_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="534755633">0</option>
+<option value="534755634">1</option>
+<option value="534755635">2</option>
+<option value="534755636">3</option>
+<option value="534755637">4</option>
+<option value="534755638">5</option>
+<option value="534755639">6</option>
+<option value="534755640">7</option>
+<option value="534755641">8</option>
+<option value="534755642">9</option>
+<option value="534755643">10+</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>Which gender do you identify as?<span class="asterisk">&nbsp;*</span>
+    <br>
+    <span><p>This information is being requested to help us maintain equal opportunities, best practices and comply with legal requirements. The submission of this information is entirely voluntary. The information you provide will not be used in our decision making and will not subject you to any adverse treatment.</p></span>
+    <input type="hidden" name="job_application[answers_attributes][15][question_id]" id="job_application_answers_attributes_15_question_id" value="56913088" autocomplete="off">
+<input type="hidden" name="job_application[answers_attributes][15][priority]" id="job_application_answers_attributes_15_priority" value="15" autocomplete="off">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_15_answer_selected_options_attributes_15_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-8">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen8" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-8" id="s2id_autogen8"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen8_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-8" id="s2id_autogen8_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-8">   </ul></div></div><select name="job_application[answers_attributes][15][answer_selected_options_attributes][15][question_option_id]" id="job_application_answers_attributes_15_answer_selected_options_attributes_15_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="534755644">Female</option>
+<option value="534755645">Male</option>
+<option value="534755646">Not listed above</option>
+<option value="534755647">Prefer not to say</option></select>
+
+
+</label></div>
+
+          </div>
+
+
+
+
+          <div id="captcha_container" style="margin-top: 16px"></div>
+  <hr>
+
+
+
+        <div id="security_code_fields">
+          <p id="security_code_description">Enter the verification code sent to <b id="security_code_recipient"></b> to confirm you are not a robot, then submit your application.</p>
+          <div class="field">
+            <label for="security_code">Security Code <span class="asterisk">*</span></label>
+            <input id="security_code" name="security_code" type="text" aria-describedby="security_code_description" disabled="" autocomplete="one-time-code">
+          </div>
+        </div>
+
+        <div id="error_message"></div>
+
+        <div id="captcha_error_message">
+          This application was flagged as potential bot traffic. To resubmit your application, turn off any VPNs, clear the browser's cache and cookies, or try another browser. If you still can't submit it, contact our support team through the <a target="_blank" href="https://support.greenhouse.io/hc/en-us/sections/360011273391-Connecting-with-support">help center</a>.
+        </div>
+
+        <div id="submit_buttons">
+          <input type="button" value="Submit Application" id="submit_app" class="button">
+        </div>
+</form>    </div>
+</div>
+
+  <div class="education education-template hidden" data-education-required="false" data-subfield-config="true">
+  <hr>
+  <fieldset>
+
+      <div class="field">
+        <label for="education_school_name">
+          School
+        </label>
+
+        <input type="hidden" name="job_application[educations][][school_name_id]" id="education_school_name" class="school-name background-field" placeholder="Select a School" aria-required="false" data-url="https://boards-api.greenhouse.io/v1/boards/canonicaljobs/education/schools" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;SchoolNameRequired&quot;}]" autocomplete="off">
+
+        <a class="remove-background-field" href="#"><img alt="Remove Education" src="https://boards.cdn.greenhouse.io/assets/svg/close-2388e0f798509ffdefd9fe48321955a399f62a302d4f33f96e798f2272a7b52d.svg"></a>
+      </div>
+
+      <div class="field">
+        <label for="education_degree">
+          Degree
+        </label>
+
+        <select name="job_application[educations][][degree_id]" id="education_degree" class="degree background-field" aria-required="false" data-placeholder="Select a Degree" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;DegreeRequired&quot;}]"><option value=""></option>
+<option value="11331789">High School</option>
+<option value="11331790">Associate's Degree</option>
+<option value="11331791">Bachelor's Degree</option>
+<option value="11331792">Master's Degree</option>
+<option value="11331793">Master of Business Administration (M.B.A.)</option>
+<option value="11331794">Juris Doctor (J.D.)</option>
+<option value="11331795">Doctor of Medicine (M.D.)</option>
+<option value="11331796">Doctor of Philosophy (Ph.D.)</option>
+<option value="11331797">Engineer's Degree</option>
+<option value="11331798">Other</option>
+<option value="11881594">Computer Science Degree</option></select>
+      </div>
+
+      <div class="field">
+        <label for="education_discipline">
+          Discipline
+        </label>
+
+        <select name="job_application[educations][][discipline_id]" id="education_discipline" class="discipline background-field" aria-required="false" data-placeholder="Select a Discipline" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;DisciplineRequired&quot;}]"><option value=""></option>
+<option value="11331799">Accounting</option>
+<option value="11331800">African Studies</option>
+<option value="11331801">Agriculture</option>
+<option value="11331802">Anthropology</option>
+<option value="11331803">Applied Health Services</option>
+<option value="11331804">Architecture</option>
+<option value="11331805">Art</option>
+<option value="11331806">Asian Studies</option>
+<option value="11331807">Biology</option>
+<option value="11331808">Business</option>
+<option value="11331809">Business Administration</option>
+<option value="11331810">Chemistry</option>
+<option value="11331811">Classical Languages</option>
+<option value="11331812">Communications &amp; Film</option>
+<option value="11331813">Computer Science</option>
+<option value="11331814">Dentistry</option>
+<option value="11331815">Developing Nations</option>
+<option value="11331816">Discipline Unknown</option>
+<option value="11331817">Earth Sciences</option>
+<option value="11331818">Economics</option>
+<option value="11331819">Education</option>
+<option value="11331820">Electronics</option>
+<option value="11331821">Engineering</option>
+<option value="11331822">English Studies</option>
+<option value="11331823">Environmental Studies</option>
+<option value="11331824">European Studies</option>
+<option value="11331825">Fashion</option>
+<option value="11331826">Finance</option>
+<option value="11331827">Fine Arts</option>
+<option value="11331828">General Studies</option>
+<option value="11331829">Health Services</option>
+<option value="11331830">History</option>
+<option value="11331831">Human Resources Management</option>
+<option value="11331832">Humanities</option>
+<option value="11331833">Industrial Arts &amp; Carpentry</option>
+<option value="11331834">Information Systems</option>
+<option value="11331835">International Relations</option>
+<option value="11331836">Journalism</option>
+<option value="11331837">Languages</option>
+<option value="11331838">Latin American Studies</option>
+<option value="11331839">Law</option>
+<option value="11331840">Linguistics</option>
+<option value="11331841">Manufacturing &amp; Mechanics</option>
+<option value="11331842">Mathematics</option>
+<option value="11331843">Medicine</option>
+<option value="11331844">Middle Eastern Studies</option>
+<option value="11331845">Naval Science</option>
+<option value="11331846">North American Studies</option>
+<option value="11331847">Nuclear Technics</option>
+<option value="11331848">Operations Research &amp; Strategy</option>
+<option value="11331849">Organizational Theory</option>
+<option value="11331850">Philosophy</option>
+<option value="11331851">Physical Education</option>
+<option value="11331852">Physical Sciences</option>
+<option value="11331853">Physics</option>
+<option value="11331854">Political Science</option>
+<option value="11331855">Psychology</option>
+<option value="11331856">Public Policy</option>
+<option value="11331857">Public Service</option>
+<option value="11331858">Religious Studies</option>
+<option value="11331859">Russian &amp; Soviet Studies</option>
+<option value="11331860">Scandinavian Studies</option>
+<option value="11331861">Science</option>
+<option value="11331862">Slavic Studies</option>
+<option value="11331863">Social Science</option>
+<option value="11331864">Social Sciences</option>
+<option value="11331865">Sociology</option>
+<option value="11331866">Speech</option>
+<option value="11331867">Statistics &amp; Decision Theory</option>
+<option value="11331868">Urban Studies</option>
+<option value="11331869">Veterinary Medicine</option>
+<option value="12065635">Other</option></select>
+      </div>
+
+
+  </fieldset>
+</div>
+
+
+
+
+    </div>
+  </div>
+
+    
+      <script src="https://boards.cdn.greenhouse.io/assets/application-fe614e88b1e2967c622bd75280b23b2a1a8a2066c15015273be37aded2b27408.js"></script>
+  <script src="https://boards.cdn.greenhouse.io/assets/embed/window_sizing-f151963cd54735a35dbe973843448a89748d254efc3cdf98b3f15d56fdb2d397.js"></script>
+  <script src="https://boards.cdn.greenhouse.io/assets/embed/views-0db6470d137ddb14af4176762f374987d72664f8871f179643a50b557ffbd946.js"></script>
+
+  <div class="s3-upload-form" data-presigned-form="resume"><form id="s3_upload_for_resume" data-key-template="stash/applications/resumes/{timestamp}-{unique_id}-1d36aabc2b6454c0c504a1fed3a1706b" enctype="multipart/form-data" action="https://grnhse-prod-jben-us-west-2.s3.us-west-2.amazonaws.com" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓" autocomplete="off"><input type="hidden" name="x-amz-server-side-encryption" value="AES256" autocomplete="off"><input type="hidden" name="success_action_status" value="201" autocomplete="off"><input type="hidden" name="policy" value="eyJleHBpcmF0aW9uIjoiMjAyNi0wMi0yMFQwODo1NToyM1oiLCJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJncm5oc2UtcHJvZC1qYmVuLXVzLXdlc3QtMiJ9LFsic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIkYXV0aGVudGljaXR5X3Rva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJzdGFzaC9hcHBsaWNhdGlvbnMvcmVzdW1lcyJdLHsieC1hbXotc2VydmVyLXNpZGUtZW5jcnlwdGlvbiI6IkFFUzI1NiJ9LHsic3VjY2Vzc19hY3Rpb25fc3RhdHVzIjoiMjAxIn0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMSwxMDQ4NTc2MDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0seyJ4LWFtei1jcmVkZW50aWFsIjoiQUtJQVZRR09MR1kzMkJISUpLTUwvMjAyNjAxMjAvdXMtd2VzdC0yL3MzL2F3czRfcmVxdWVzdCJ9LHsieC1hbXotYWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsieC1hbXotZGF0ZSI6IjIwMjYwMTIwVDA4NTUyM1oifV19" autocomplete="off"><input type="hidden" name="x-amz-credential" value="AKIAVQGOLGY32BHIJKML/20260120/us-west-2/s3/aws4_request" autocomplete="off"><input type="hidden" name="x-amz-algorithm" value="AWS4-HMAC-SHA256" autocomplete="off"><input type="hidden" name="x-amz-date" value="20260120T085523Z" autocomplete="off"><input type="hidden" name="x-amz-signature" value="dc78b22a0c59785e0338b9c233e523f72eb1ea5e74ea63af5e0f1a3bd355e0ae" autocomplete="off"><input type="file" name="file" tabindex="-1"><input type="hidden" name="key" autocomplete="off"><input type="hidden" name="utf8" id="utf8" value="â" autocomplete="off"></form></div>
+<script class="js-metadata processed" data-key="JBEN.hideCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.alternateCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.geetestPath" data-type="string" data-value="/geetest" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.Recaptcha.publicKey" data-type="string" data-value="6Lc_7sYpAAAAAIwx29jsS1yyzLio4oW3atTTi6MO" type="text/configuration"></script>      <script type="text/javascript">
+        var captchaLoadCallback = function() {
+          grecaptcha.enterprise.execute(JBEN.Recaptcha.publicKey, { action: 'load_job' }).then(function(token) {
+            // Future: send this assessment token to the server?
+          });
+        };
+      </script>
+      <script src="https://www.google.com/recaptcha/enterprise.js?onload=captchaLoadCallback&amp;render=6Lc_7sYpAAAAAIwx29jsS1yyzLio4oW3atTTi6MO" async=""></script>
+
+  <script src="https://boards.cdn.greenhouse.io/assets/show_init-6b19dad1e28f26037afab7a98450d76ddc57de616eada6be6de52bacc85735f7.js"></script>
+  
+
+
+  <script class="js-metadata processed" data-key="JBEN.PublicJobBoard.UncacheableAttributes.path" data-type="string" data-value="/uncacheable_attributes.json" type="text/configuration"></script><script class="js-metadata processed" data-key="LocationControl.Providers.Mapbox.apiKey" data-type="string" data-value="pk.eyJ1IjoiamNtdWxsZXIiLCJhIjoiY2l2YmI2ZG82MDA4bzJ6b3UwNTB1enkycSJ9.oRrvDNk1PKKA76v6qSRFXg" type="text/configuration"></script>
+  <script class="js-metadata processed" data-key="LocationControl.Providers.Pelias.apiKey" data-type="string" data-value="ge-39f1178289d5d0c5" type="text/configuration"></script>
+  <script type="application/ld+json">
+  {"@context":"schema.org","@type":"JobPosting","hiringOrganization":{"@type":"Organization","name":"Canonical - Jobs","logo":"https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/012/263/resized/_Canonical.png?1689184020"},"title":"Engineering Manager - Public Cloud, Python, Golang","datePosted":"2025-05-21","jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Montreal, Quebec, Canada","addressRegion":"","addressCountry":null,"postalCode":null}},"description":"\u003cp\u003eCanonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.\u003c/p\u003e\n\u003cp\u003eThe company is founder-led, profitable, and growing.\u003c/p\u003e\n\u003cp\u003eWe are hiring an Engineering Manager to lead one of our teams that work closely with Amazon, Microsoft, Google and other world-class cloud partners to optimize Ubuntu for their infrastructure. Our team builds, tests, and publishes the base Ubuntu images used by millions to ensure optimal performance and security in their cloud estate. We aim to deliver the very best public cloud VM experience, as well as specialized images for specific purposes on each cloud.\u0026nbsp;Our goal is to celebrate and enable their particular points of differentiation on their clouds, while also ensure a common operating experience for their users.\u003c/p\u003e\n\u003cp\u003eAs an engineering manager you need to bring both technical and management skills to the leadership of your team. You will also need to represent the team in direct partner engagement. You’ll be responsible for the stability and functionality that our cloud users have come to expect. You will strive to automate the delivery of existing and new Ubuntu image products applied to all modern workloads from web servers to GPU-aided AI for servers, VM’s and containers.\u003c/p\u003e\n\u003cp\u003eAs an engineering manager at Canonical your primary responsibility is to the people you support: ensuring that they are growing as engineers, doing valuable work, and generally having a great time at Canonical. As a lead for strong engineers, technical leadership and a solid background in software development is a must, so that you’re able to challenge and grow your team members. You will have the opportunity to influence the culture, facilitate technical delivery, and work with your team on strategy and execution.\u003c/p\u003e\n\u003cp\u003eWe work in Python and Golang, and expect engineering managers to be fluent in the language, architecture and components that their team is building with. Code reviews and architectural leadership are part of the job. As manager, the commitment to healthy engineering practices, documentation, quality and performance optimisation are equally important technical responsibilities, as is the requirement for fair and clear management, and the obligation to ensure a high performing team.\u003c/p\u003e\n\u003ch2\u003eThe role entails\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eBuild and lead a team of engineers in your and similar timezones\u003c/li\u003e\n\u003cli\u003eDevelop talent through coaching, mentoring, feedback and hands-on career development\u003c/li\u003e\n\u003cli\u003eDemonstrate sound engineering principles and directly contribute toward your team’s goals\u003c/li\u003e\n\u003cli\u003eSet and manage expectations with other engineering teams, management, and external stakeholders\u003c/li\u003e\n\u003cli\u003eLead modern, agile software development practices\u003c/li\u003e\n\u003cli\u003eEnsure a healthy, collaborative engineering culture in line with the company values\u003c/li\u003e\n\u003cli\u003eBe an active part of the leadership team and collaborate with other leaders in the organisation\u003c/li\u003e\n\u003cli\u003eBuild automated, highly reliable image delivery, testing and publication pipelines\u003c/li\u003e\n\u003cli\u003eEngage with many other teams at Canonical, as well as the open source community and commercial partners\u003c/li\u003e\n\u003cli\u003eWork from home with global travel up to 15% for internal and external events\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eWhat we are looking for in you\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eYou love to mentor, develop and grow people, and have a track record of doing it\u003c/li\u003e\n\u003cli\u003eYou are knowledgeable and passionate about software development\u003c/li\u003e\n\u003cli\u003eYou are focused on success and the delivery of timely, high quality software\u003c/li\u003e\n\u003cli\u003eYou have experience and commitment to agile development methodologies\u003c/li\u003e\n\u003cli\u003eYou have a Bachelor’s or equivalent in Computer Science, STEM or similar degree\u003c/li\u003e\n\u003cli\u003eSoftware development experience in Python or Golang\u003c/li\u003e\n\u003cli\u003eEffective written and verbal communication skills\u003c/li\u003e\n\u003cli\u003ePractical experience with at least one of Microsoft Azure, Google Cloud, or AWS\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eWhat we offer colleagues\u003c/h2\u003e\n\u003cp\u003eWe consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDistributed work environment with twice-yearly team sprints in person\u003c/li\u003e\n\u003cli\u003ePersonal learning and development budget of USD 2,000 per year\u003c/li\u003e\n\u003cli\u003eAnnual compensation review\u003c/li\u003e\n\u003cli\u003eRecognition rewards\u003c/li\u003e\n\u003cli\u003eAnnual holiday leave\u003c/li\u003e\n\u003cli\u003eMaternity and paternity leave\u003c/li\u003e\n\u003cli\u003eTeam Member Assistance Program \u0026amp; Wellness Platform\u003c/li\u003e\n\u003cli\u003eOpportunity to travel to new locations to meet colleagues\u003c/li\u003e\n\u003cli\u003ePriority Pass and travel upgrades for long-haul company events\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eAbout Canonical\u003c/h2\u003e\n\u003cp\u003eCanonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.&ZeroWidthSpace; Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.\u003c/p\u003e\n\u003ch2\u003eCanonical is an equal opportunity employer\u003c/h2\u003e\n\u003cp\u003eWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products.\u003ca href=\"https://canonical.com/careers/diversity/identity\"\u003e Whatever your identity, we will give your application fair consideration.\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e#LI-remote\u003c/p\u003e"}
+</script>
+
+    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="mh9jyh4mfwjnfhj" async=""></script>
+
+
+
+  
+
+<span role="status" aria-live="polite" class="select2-hidden-accessible"></span><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-iygqoofslsyt" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/enterprise/anchor?ar=1&amp;k=6Lc_7sYpAAAAAIwx29jsS1yyzLio4oW3atTTi6MO&amp;co=aHR0cHM6Ly9ib2FyZHMuZ3JlZW5ob3VzZS5pbzo0NDM.&amp;hl=zh-CN&amp;v=PoyoqOPhxBO7pBk68S4YbpHZ&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=lwazrodwoiy3"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div><script src="https://platform.linkedin.com/in.js" defer="">api_key:775iqcl0oenj80</script><script src="https://www.linkedin.com/talentwidgets/extensions/apply-with-linkedin-widget-script?apiKey=775iqcl0oenj80&amp;renderV3=null&amp;applyUrl=https%3A%2F%2Fboards.greenhouse.io%2Fembed%2Fjob_app%3Ftoken%3D6909295%26utm_source%3Djobright" defer=""></script><div id="ae716eb4-8cb8-45ec-a75d-197e8895f6e9" class="IN-staging" style="display: none;"></div></body><div id="__plasmo-loading__" style="pointer-events: none; position: fixed; bottom: 14.7px; right: 14.7px; font-family: sans-serif; display: flex; justify-content: center; align-items: center; padding: 14.7px; gap: 14.7px; border-radius: 4.7px; z-index: 2147483647; opacity: 0; transition: 0.47s ease-in-out;">
+  <style>
+    #__plasmo-loading__ {
+      background: #f3f3f3;
+      color: #333;
+      border: 1px solid #333;
+      box-shadow: #333 4.7px 4.7px;
+    }
+
+    #__plasmo-loading__:hover {
+      background: #e3e3e3;
+      color: #444;
+    }
+
+    @keyframes plasmo-loading-animate-svg-fill {
+      0% {
+        fill: transparent;
+      }
+    
+      100% {
+        fill: #333;
+      }
+    }
+
+    #__plasmo-loading__ .svg-elem-1 {
+      animation: plasmo-loading-animate-svg-fill 1.47s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both infinite;
+    }
+
+    #__plasmo-loading__ .svg-elem-2 {
+      animation: plasmo-loading-animate-svg-fill 1.47s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s both infinite;
+    }
+    
+    #__plasmo-loading__ .svg-elem-3 {
+      animation: plasmo-loading-animate-svg-fill 1.47s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both infinite;
+    }
+
+    #__plasmo-loading__ .hidden {
+      display: none;
+    }
+
+  </style>
+  
+  <svg height="32" width="32" viewBox="0 0 264 354" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M139.221 282.243C154.252 282.243 166.903 294.849 161.338 308.812C159.489 313.454 157.15 317.913 154.347 322.109C146.464 333.909 135.26 343.107 122.151 348.538C109.043 353.969 94.6182 355.39 80.7022 352.621C66.7861 349.852 54.0034 343.018 43.9705 332.983C33.9375 322.947 27.105 310.162 24.3369 296.242C21.5689 282.323 22.9895 267.895 28.4193 254.783C33.8491 241.671 43.0441 230.464 54.8416 222.579C59.0353 219.777 63.4908 217.438 68.1295 215.588C82.0915 210.021 94.6978 222.671 94.6978 237.703L94.6978 255.027C94.6978 270.058 106.883 282.243 121.914 282.243H139.221Z" fill="#333" class="svg-elem-1"></path>
+    <path d="M192.261 142.028C192.261 126.996 204.867 114.346 218.829 119.913C223.468 121.763 227.923 124.102 232.117 126.904C243.915 134.789 253.11 145.996 258.539 159.108C263.969 172.22 265.39 186.648 262.622 200.567C259.854 214.487 253.021 227.272 242.988 237.308C232.955 247.343 220.173 254.177 206.256 256.946C192.34 259.715 177.916 258.294 164.807 252.863C151.699 247.432 140.495 238.234 132.612 226.434C129.808 222.238 127.47 217.779 125.62 213.137C120.056 199.174 132.707 186.568 147.738 186.568L165.044 186.568C180.076 186.568 192.261 174.383 192.261 159.352L192.261 142.028Z" fill="#333" class="svg-elem-2"></path>
+    <path d="M95.6522 164.135C95.6522 179.167 83.2279 191.725 68.8013 187.505C59.5145 184.788 50.6432 180.663 42.5106 175.227C26.7806 164.714 14.5206 149.772 7.28089 132.289C0.041183 114.807 -1.85305 95.5697 1.83772 77.0104C5.52849 58.4511 14.6385 41.4033 28.0157 28.0228C41.393 14.6423 58.4366 5.53006 76.9914 1.83839C95.5461 -1.85329 114.779 0.0414162 132.257 7.2829C149.735 14.5244 164.674 26.7874 175.184 42.5212C180.62 50.6576 184.744 59.5332 187.46 68.8245C191.678 83.2519 179.119 95.6759 164.088 95.6759L122.869 95.6759C107.837 95.6759 95.6522 107.861 95.6522 122.892L95.6522 164.135Z" fill="#333" class="svg-elem-3"></path>
+  </svg>
+  <span class="hidden">Context Invalidated, Press to Reload</span>
+  </div></html>
